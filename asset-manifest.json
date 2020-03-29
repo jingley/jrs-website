@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jrs-website/static/css/main.5f361e03.chunk.css",
+    "main.js": "/jrs-website/static/js/main.45035d05.chunk.js",
+    "main.js.map": "/jrs-website/static/js/main.45035d05.chunk.js.map",
+    "runtime-main.js": "/jrs-website/static/js/runtime-main.3cbce1a8.js",
+    "runtime-main.js.map": "/jrs-website/static/js/runtime-main.3cbce1a8.js.map",
+    "static/js/2.479b475e.chunk.js": "/jrs-website/static/js/2.479b475e.chunk.js",
+    "static/js/2.479b475e.chunk.js.map": "/jrs-website/static/js/2.479b475e.chunk.js.map",
+    "index.html": "/jrs-website/index.html",
+    "precache-manifest.80461b313494da91ea8d2916069600b3.js": "/jrs-website/precache-manifest.80461b313494da91ea8d2916069600b3.js",
+    "service-worker.js": "/jrs-website/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/jrs-website/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.479b475e.chunk.js.LICENSE.txt": "/jrs-website/static/js/2.479b475e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/jrs-website/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cbce1a8.js",
+    "static/js/2.479b475e.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.45035d05.chunk.js"
+  ]
+}
