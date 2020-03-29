@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 const App = () => {
@@ -10,14 +11,7 @@ const App = () => {
         <p>
           This is a placeholder home page for my first React App deployed on github pages. This will be my Resume Page!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Link to="/resume">Resume</Link>
       </header>
     </div>
   );
