@@ -7,7 +7,7 @@ import Resume from './Resume/Resume';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-    <Router>
+    <Router basename="/jrs-website">
         <div>
             <Route path="/" exact component={App} />
             <Route path="/resume" component={Resume} />
