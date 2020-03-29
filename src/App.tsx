@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Testing this to see how it updates
+          This is a placeholder home page for my first React App deployed on github pages. This will be my Resume Page!
         </p>
         <a
           className="App-link"
