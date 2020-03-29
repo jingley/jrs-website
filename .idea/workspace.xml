@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Resume/Resume.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resume/Resume.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resume/Sections/Education.text.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resume/Sections/Education.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resume/Sections/Education.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resume/Resume.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resume/Resume.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resume/Resume.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resume/Sections/Education.text.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +41,78 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="C:\Users\jingl\Documents\MyProjects\jrs-website\node_modules\typescript\lib" />
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Jest.Resume.test.tsx">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="App.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/App.test.tsx" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Education.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/Resume/Sections/Education.test.tsx" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Education.text.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/Resume/Sections/Education.text.tsx" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Resume.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/Resume/Resume.test.tsx" />
+      <method v="2" />
+    </configuration>
+    <configuration name="renders education h1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Resume/Sections/Education.text.tsx" />
+      <test-names>
+        <test-name value="renders education h1" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -61,6 +126,25 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.App.test.tsx" />
+      <item itemvalue="Jest.Education.text.tsx" />
+      <item itemvalue="Jest.renders education h1" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="Jest.Education.test.tsx" />
+      <item itemvalue="Jest.Resume.test.tsx" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Resume.test.tsx" />
+        <item itemvalue="Jest.Education.test.tsx" />
+        <item itemvalue="Jest.Education.text.tsx" />
+        <item itemvalue="Jest.App.test.tsx" />
+        <item itemvalue="Jest.renders education h1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -74,7 +158,7 @@
       <updated>1585154810837</updated>
       <workItem from="1585154812489" duration="1597000" />
       <workItem from="1585235174575" duration="37000" />
-      <workItem from="1585491041483" duration="5904000" />
+      <workItem from="1585491041483" duration="10034000" />
     </task>
     <servers />
   </component>
@@ -82,6 +166,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1585502753719">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585502753719" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585502438934">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585502438934" />
+    <state width="829" height="208" key="GridCell.Tab.0.bottom" timestamp="1585504050774">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="829" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585504050774" />
+    <state width="829" height="208" key="GridCell.Tab.0.center" timestamp="1585504050774">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="829" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585504050773" />
+    <state width="829" height="208" key="GridCell.Tab.0.left" timestamp="1585504050773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="829" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585504050773" />
+    <state width="829" height="208" key="GridCell.Tab.0.right" timestamp="1585504050774">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="829" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585504050774" />
     <state x="19" y="9" key="SettingsEditor" timestamp="1585497491874">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -90,13 +198,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585235182141" />
+    <state x="762" y="0" width="781" height="830" key="dock-window-1" timestamp="1585502029538">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="762" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1585502029538" />
     <state x="209" y="66" key="new project wizard" timestamp="1585495704876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="66" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585495704876" />
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585497914435">
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585504006010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585497914435" />
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585504006010" />
   </component>
 </project>

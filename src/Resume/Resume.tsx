@@ -6,9 +6,9 @@ const Resume = () => {
       <div className="Resume">
           <header className="Resume-header">
           </header>
-          {Education}
+          <Education />
       </div>
-  )
+  );
 };
 
 export default Resume;

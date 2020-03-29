@@ -7,18 +7,16 @@ import Resume from './Resume/Resume';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-    <Router>
+    <Router basename="/jrs-website">
         <div>
-            <Route path="/" component={App} />
+            <Route path="/" exact component={App} />
             <Route path="/resume" component={Resume} />
         </div>
     </Router>
 );
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  routing,
   document.getElementById('root')
 );
 
