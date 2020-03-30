@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/Resume.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Jobs/Job.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Jobs/Sabre.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Jobs/Sabre.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Jobs/SnellingClerical.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Jobs/SnellingStudent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Skills.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Skills.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Work.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Work.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Resume/css/Resume.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/backgroudn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imgs/download-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resume/Resume.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Resume/Resume.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resume/Sections/Education.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Education.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resume/Sections/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Resume/Sections/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +17,7 @@
         <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,6 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -191,7 +170,7 @@
       <workItem from="1585235174575" duration="37000" />
       <workItem from="1585491041483" duration="12784000" />
       <workItem from="1585516414023" duration="2945000" />
-      <workItem from="1585590006359" duration="15452000" />
+      <workItem from="1585590006359" duration="16230000" />
     </task>
     <servers />
   </component>
