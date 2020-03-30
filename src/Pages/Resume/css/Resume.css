@@ -1,0 +1,35 @@
+.Resume-bullets {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.Resume-bullets li {
+    list-style-position: inside;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.School-information {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Resume-title {
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Resume-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

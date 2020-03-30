@@ -1,0 +1,56 @@
+.Layout-body {
+    /*background-color: #6B8EE5;*/
+    background-color: #191919;
+    background-image: url('../imgs/background.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 100vh;
+    padding: 1.7em 0.2em 1.7em 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    color: gray;
+}
+
+.Layout-header {
+    background-color: #D9D8DF;
+    top: 0;
+    width: 100%; /* Full width */
+}
+
+.Layout-footer {
+    display: flex;
+    background-color: #D9D8DF;
+    width: 100%; /* Full width */
+}
+
+.Layout-link {
+    color: #61dafb;
+}
+
+.Nav-right {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Nav-right a {
+    padding: 1em;
+    color: darkslategrey;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.Nav-right a:hover {
+    background-color: white;
+}
+
+.Standout-text {
+    /*color: #FFE667;*/
+    color: #CCA316;
+}

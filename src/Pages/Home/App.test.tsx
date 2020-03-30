@@ -5,5 +5,5 @@ import { shallow } from 'enzyme';
 
 it('renders  component', () => {
   const wrapper = shallow( <App />);
-  expect(wrapper.find(<p></p>));
+  expect(wrapper.find('p').length).toEqual(1);
 });

@@ -9,21 +9,21 @@ const Education = () => {
         college: 'Franklin College of Arts and Sciences',
         university: 'The Univerity of Georgia',
         gpa: '3.14 out of 4.0',
-        relatedCourseWork: 'Software Engineering(A), System Programming(B+), Web Programming(A),\n' +
-            'Software Development(B), Data Structures(A-), Database Management (A-), Mobile Software\n' +
-            'Development (B), Computer Networks (In-Progress)'
+        relatedCourseWork: 'Software Engineering, System Programming, Web Programming,\n' +
+            'Software Development, Data Structures, Database Management, Mobile Software\n' +
+            'Development, Computer Networks'
     };
 
     const {major, status, year, degree, college, university, gpa, relatedCourseWork} = props;
 
     return (
         <div className="Education">
-            <h1>Education</h1>
-            <div className="Education-Title">
-                <p>{degree} | {university} |</p>
+            <h2 className="Resume-title">Education</h2>
+            <div className="School-information">
+                <p>{degree} | {university} </p>
                 <p>{status}, {year} {college}</p>
             </div>
-            <div className="Education-Bullets">
+            <div className="Resume-bullets">
                 <ul>
                     <li>GPA: {gpa}</li>
                     <li>Major: {major}</li>

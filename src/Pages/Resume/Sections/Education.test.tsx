@@ -4,8 +4,8 @@ import Education from './Education';
 
 test('renders education h1', () => {
     const { getByText } = render(<Education />);
-    const h1 = getByText(/Education/i);
-    expect(h1).toBeInTheDocument();
+    const h2 = getByText(/Education/i);
+    expect(h2).toBeInTheDocument();
 });
 
 test('renders Education-title', () => {
