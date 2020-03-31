@@ -11,7 +11,7 @@ const App = () => {
             <header className="App-header">
             <img src={require('../../imgs/download-removebg-preview.png')} className="App-logo" alt="logo" />
             <p>
-                This is a placeholder home page for <span className="Standout-text">my first React App</span> deployed on github pages. This will be my Resume Website! However it is in development still!
+                This is a placeholder home page for <span className="Standout-text">my React App</span> deployed on github pages. This will be my Resume Website! However it is in development still!
             </p>
             </header>
         </div>
