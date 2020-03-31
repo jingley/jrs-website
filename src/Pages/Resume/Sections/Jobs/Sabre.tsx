@@ -16,14 +16,10 @@ const Sabre = () => {
         description: `
         <ul>
             <li>${ bullets.a }</li>
-                <ul>
-                    <li>${ bullets.a1 }</li>
-                    <li>${ bullets.a2 }</li>
-                </ul> 
+            <li>${ bullets.a1 }</li>
+            <li>${ bullets.a2 }</li>
             <li>${ bullets.b }</li>
-                <ul>
-                    <li>${ bullets.b1 }</li>
-                </ul>
+            <li>${ bullets.b1 }</li>
             <li>${ bullets.c }</li>
         </ul>`,
         title: 'Software Developer Intern',

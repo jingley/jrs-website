@@ -13,10 +13,8 @@ const SnellingStudent = () => {
         description: `
         <ul>
             <li>${ bullets.a }</li>
-            <ul>
-                <li>${ bullets.a1 }</li>
-                <li>${ bullets.a2 }</li>
-            </ul>
+            <li>${ bullets.a1 }</li>
+            <li>${ bullets.a2 }</li>
         </ul>`,
         title: 'Student Food Service Worker I',
         company: 'Snelling Dining Commons',
