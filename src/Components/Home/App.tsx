@@ -1,9 +1,15 @@
+/**
+ * @author Jon Ross Ingley <jingley22@gmail.com>
+ */
+
 import React from 'react';
-import logo from '../../logo.svg';
-import { Link } from 'react-router-dom';
 import './css/App.css';
 import Layout from '../../Layout';
 
+/**
+ * App component. this is the homepage component
+ * @constructor
+ */
 const App = () => {
   return (
       <Layout>

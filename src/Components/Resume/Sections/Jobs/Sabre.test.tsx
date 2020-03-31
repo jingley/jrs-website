@@ -1,5 +1,8 @@
+/**
+ * @author Jon Ross Ingley <jingley22@gmail.com>
+ */
+
 import React from 'react';
-import {render} from '@testing-library/react';
 import Sabre from './Sabre';
 import { shallow } from 'enzyme';
 import Job from './Job';

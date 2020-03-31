@@ -1,6 +1,18 @@
+/**
+ * @author Jon Ross Ingley <jingley22@gmail.com>
+ */
+
 import React from 'react';
 
+/**
+ * Education component in resume
+ *
+ * @constructor
+ */
 const Education = () => {
+    /**
+     * props
+     */
     const props = {
         major: 'Computer Science',
         status: 'In Progress',
@@ -14,6 +26,9 @@ const Education = () => {
             'Development, Computer Networks'
     };
 
+    /**
+     * destructing props
+     */
     const {major, status, year, degree, college, university, gpa, relatedCourseWork} = props;
 
     return (

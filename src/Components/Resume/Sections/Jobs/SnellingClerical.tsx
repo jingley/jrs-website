@@ -1,8 +1,20 @@
+/**
+ * @author Jon Ross Ingley <jingley22@gmail.com>
+ */
+
 import React from 'react';
 import Job from './Job';
 
+/**
+ * Snelling Clerical Component. Child of Job
+ *
+ * @constructor
+ */
 const SnellingClerical = () => {
 
+    /**
+     * Bullets for description list
+     */
     const bullets = {
         a: 'Continued responsibilities from entry level position (Student Food Service Worker I) while adding additional tasks: ' +
             'maintaining employee records, running the cash register and handling sensitive information.',
@@ -10,6 +22,9 @@ const SnellingClerical = () => {
             'student work stations and training new students.'
     };
 
+    /**
+     * props
+     */
     const props = {
         description: `
         <ul>

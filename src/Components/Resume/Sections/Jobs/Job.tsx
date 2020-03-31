@@ -1,5 +1,15 @@
+/**
+ * @author Jon Ross Ingley <jingley22@gmail.com>
+ */
+
 import React from 'react';
 
+/**
+ * Job component constructor. This is the template for the job components and used by children.
+ *
+ * @param props
+ * @constructor
+ */
 const Job = (props) => {
 
     const {description, title, company, timeline} = props;

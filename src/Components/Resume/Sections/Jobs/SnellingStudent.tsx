@@ -1,14 +1,29 @@
+/**
+ * @author Jon Ross Ingley <jingley22@gmail.com>
+ */
+
 import React from 'react';
 import Job from './Job';
 
+/**
+ * SnellingStudent Component. Child of Job.
+ *
+ * @constructor
+ */
 const SnellingStudent = () => {
 
+    /**
+     * Bullets for description list
+     */
     const bullets = {
         a: 'Acquired skills in customer service, teamwork, communication, time management, and multitasking.',
         a1: 'Rookie of the Month - August 2015',
         a2: 'Outstanding Customer Service - September 2016'
     };
 
+    /**
+     * props
+     */
     const props = {
         description: `
         <ul>

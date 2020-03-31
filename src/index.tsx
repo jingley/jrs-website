@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import './css/index.css';
-import App from './Pages/Home/App';
-import Resume from './Pages/Resume/Resume';
+import App from './Components/Home/App';
+import Resume from './Components/Resume/Resume';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (

@@ -1,3 +1,7 @@
+/**
+ * @author Jon Ross Ingley <jingley22@gmail.com>
+ */
+
 import React from 'react';
 import Education from './Sections/Education';
 import Layout from '../../Layout';
