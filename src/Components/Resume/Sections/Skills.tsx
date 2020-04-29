@@ -32,6 +32,7 @@ const Skills = () => {
               <ul>
                   <li><span className="Standout-text">React</span></li>
                   <li>Redux</li>
+                  <li>RxJs</li>
                   <li>Git</li>
                   <li>SQL</li>
               </ul>

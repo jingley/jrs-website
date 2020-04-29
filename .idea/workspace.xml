@@ -3,24 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Home/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Home/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Home/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Resume.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Education.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Jobs/Job.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Job.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Jobs/Sabre.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Sabre.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Jobs/Sabre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Sabre.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Jobs/SnellingClerical.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/SnellingClerical.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Jobs/SnellingStudent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/SnellingStudent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Skills.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Work.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Work.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/Sections/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Work.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Resume/css/Resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Sabre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Sabre.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +27,6 @@
   <component name="ProjectId" id="1Zd2mekISTruW555cYRXZC6pkff" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -79,7 +62,7 @@
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Resume\Sections" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Sabre.test.tsx">
+  <component name="RunManager" selected="Jest.Sabre tests">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -99,16 +82,6 @@
       <test-file value="$PROJECT_DIR$/src/App.test.tsx" />
       <method v="2" />
     </configuration>
-    <configuration name="Education.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/Resume/Sections/Education.test.tsx" />
-      <method v="2" />
-    </configuration>
     <configuration name="Resume.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -117,6 +90,19 @@
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/src/Resume/Resume.test.tsx" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sabre tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Sabre.test.tsx" />
+      <test-names>
+        <test-name value="Sabre tests" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Sabre.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -156,19 +142,19 @@
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="Jest.All Tests" />
       <item itemvalue="Jest.App.test.tsx" />
-      <item itemvalue="Jest.Education.test.tsx" />
       <item itemvalue="Jest.Resume.test.tsx" />
       <item itemvalue="Jest.Skills.test.tsx" />
-      <item itemvalue="npm.npm start" />
       <item itemvalue="Jest.Sabre.test.tsx" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="Jest.Sabre tests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Sabre tests" />
         <item itemvalue="Jest.Sabre.test.tsx" />
         <item itemvalue="Jest.App.test.tsx" />
         <item itemvalue="Jest.Skills.test.tsx" />
         <item itemvalue="Jest.Resume.test.tsx" />
-        <item itemvalue="Jest.Education.test.tsx" />
       </list>
     </recent_temporary>
   </component>
@@ -187,17 +173,23 @@
       <workItem from="1585491041483" duration="12784000" />
       <workItem from="1585516414023" duration="2945000" />
       <workItem from="1585590006359" duration="18348000" />
+      <workItem from="1588173180161" duration="162000" />
+      <workItem from="1588173533715" duration="504000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1585502753719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585502753719" />
+    <state x="444" y="80" key="#Sabre.test.tsx" timestamp="1588173939904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="80" key="#Sabre.test.tsx/0.0.1536.824@0.0.1536.824" timestamp="1588173939904" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585502438934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -206,26 +198,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1585518068423" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588173319071">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1588173319071" />
     <state x="526" y="160" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585614605331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="160" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585614605331" />
-    <state width="724" height="208" key="GridCell.Tab.0.bottom" timestamp="1585596333879">
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1588173978062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585596333879" />
-    <state width="724" height="208" key="GridCell.Tab.0.center" timestamp="1585596333878">
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588173978062" />
+    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1588173978061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585596333878" />
-    <state width="724" height="208" key="GridCell.Tab.0.left" timestamp="1585596333878">
+    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588173978061" />
+    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1588173978061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585596333878" />
-    <state width="724" height="208" key="GridCell.Tab.0.right" timestamp="1585596333878">
+    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588173978061" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1588173978061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585596333878" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588173978061" />
     <state x="0" y="158" key="IDE.errors.dialog" timestamp="1585590797551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -234,10 +230,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="19" y="9" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585497491874" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585590006553">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588173258433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585590006553" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588173258433" />
     <state x="762" y="0" width="781" height="830" key="dock-window-1" timestamp="1585502029538">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
