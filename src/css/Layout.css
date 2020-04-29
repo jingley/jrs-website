@@ -12,7 +12,6 @@
     justify-content: center;
     font-size: calc(5px + 2vmin);
     color: gray;
-    list-style: none;
 }
 
 .Layout-header {
@@ -54,4 +53,8 @@
 .Standout-text {
     /*color: #FFE667;*/
     color: #CCA316;
+}
+
+ul {
+    list-style: none;
 }
