@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jrs-website/static/css/main.473062ce.chunk.css",
+    "main.css": "/jrs-website/static/css/main.c46c9851.chunk.css",
     "main.js": "/jrs-website/static/js/main.01d4c2f5.chunk.js",
     "main.js.map": "/jrs-website/static/js/main.01d4c2f5.chunk.js.map",
     "runtime-main.js": "/jrs-website/static/js/runtime-main.3cbce1a8.js",
@@ -8,9 +8,9 @@
     "static/js/2.fa18f7ab.chunk.js": "/jrs-website/static/js/2.fa18f7ab.chunk.js",
     "static/js/2.fa18f7ab.chunk.js.map": "/jrs-website/static/js/2.fa18f7ab.chunk.js.map",
     "index.html": "/jrs-website/index.html",
-    "precache-manifest.6751d2f8f0c3ce6635ebfa23f67bf1e6.js": "/jrs-website/precache-manifest.6751d2f8f0c3ce6635ebfa23f67bf1e6.js",
+    "precache-manifest.b11f1e1620374185d2cd796ac2649b73.js": "/jrs-website/precache-manifest.b11f1e1620374185d2cd796ac2649b73.js",
     "service-worker.js": "/jrs-website/service-worker.js",
-    "static/css/main.473062ce.chunk.css.map": "/jrs-website/static/css/main.473062ce.chunk.css.map",
+    "static/css/main.c46c9851.chunk.css.map": "/jrs-website/static/css/main.c46c9851.chunk.css.map",
     "static/js/2.fa18f7ab.chunk.js.LICENSE.txt": "/jrs-website/static/js/2.fa18f7ab.chunk.js.LICENSE.txt",
     "static/media/Layout.css": "/jrs-website/static/media/background.9ae318fa.jpg",
     "static/media/download-removebg-preview.png": "/jrs-website/static/media/download-removebg-preview.1877ca77.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.3cbce1a8.js",
     "static/js/2.fa18f7ab.chunk.js",
-    "static/css/main.473062ce.chunk.css",
+    "static/css/main.c46c9851.chunk.css",
     "static/js/main.01d4c2f5.chunk.js"
   ]
 }
