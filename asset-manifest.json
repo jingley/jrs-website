@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/jrs-website/static/css/main.7c129f3e.chunk.css",
-    "main.js": "/jrs-website/static/js/main.01d4c2f5.chunk.js",
-    "main.js.map": "/jrs-website/static/js/main.01d4c2f5.chunk.js.map",
+    "main.css": "/jrs-website/static/css/main.cce15643.chunk.css",
+    "main.js": "/jrs-website/static/js/main.e43d8341.chunk.js",
+    "main.js.map": "/jrs-website/static/js/main.e43d8341.chunk.js.map",
     "runtime-main.js": "/jrs-website/static/js/runtime-main.3cbce1a8.js",
     "runtime-main.js.map": "/jrs-website/static/js/runtime-main.3cbce1a8.js.map",
-    "static/js/2.fa18f7ab.chunk.js": "/jrs-website/static/js/2.fa18f7ab.chunk.js",
-    "static/js/2.fa18f7ab.chunk.js.map": "/jrs-website/static/js/2.fa18f7ab.chunk.js.map",
+    "static/js/2.411e9dc6.chunk.js": "/jrs-website/static/js/2.411e9dc6.chunk.js",
+    "static/js/2.411e9dc6.chunk.js.map": "/jrs-website/static/js/2.411e9dc6.chunk.js.map",
     "index.html": "/jrs-website/index.html",
-    "precache-manifest.1c26be8a23cd95ae91fcf8208da6b208.js": "/jrs-website/precache-manifest.1c26be8a23cd95ae91fcf8208da6b208.js",
+    "precache-manifest.0efded068b3adf15bbe86cdd73596485.js": "/jrs-website/precache-manifest.0efded068b3adf15bbe86cdd73596485.js",
     "service-worker.js": "/jrs-website/service-worker.js",
-    "static/css/main.7c129f3e.chunk.css.map": "/jrs-website/static/css/main.7c129f3e.chunk.css.map",
-    "static/js/2.fa18f7ab.chunk.js.LICENSE.txt": "/jrs-website/static/js/2.fa18f7ab.chunk.js.LICENSE.txt",
-    "static/media/Layout.css": "/jrs-website/static/media/background.9ae318fa.jpg",
-    "static/media/download-removebg-preview.png": "/jrs-website/static/media/download-removebg-preview.1877ca77.png"
+    "static/css/main.cce15643.chunk.css.map": "/jrs-website/static/css/main.cce15643.chunk.css.map",
+    "static/js/2.411e9dc6.chunk.js.LICENSE.txt": "/jrs-website/static/js/2.411e9dc6.chunk.js.LICENSE.txt",
+    "static/media/download-removebg-preview.png": "/jrs-website/static/media/download-removebg-preview.1877ca77.png",
+    "static/media/uga.png": "/jrs-website/static/media/uga.822b90c9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3cbce1a8.js",
-    "static/js/2.fa18f7ab.chunk.js",
-    "static/css/main.7c129f3e.chunk.css",
-    "static/js/main.01d4c2f5.chunk.js"
+    "static/js/2.411e9dc6.chunk.js",
+    "static/css/main.cce15643.chunk.css",
+    "static/js/main.e43d8341.chunk.js"
   ]
 }
