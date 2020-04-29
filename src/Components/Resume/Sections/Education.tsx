@@ -3,6 +3,8 @@
  */
 
 import React from 'react';
+import logo from '../../../imgs/uga.png';
+
 
 /**
  * Education component in resume
@@ -21,9 +23,9 @@ const Education = () => {
         college: 'Franklin College of Arts and Sciences',
         university: 'The Univerity of Georgia',
         gpa: '3.14 out of 4.0',
-        relatedCourseWork: 'Software Engineering, System Programming, Web Programming,\n' +
-            'Software Development, Data Structures, Database Management, Mobile Software\n' +
-            'Development, Computer Networks'
+        relatedCourseWork: `Related Coursework: <span class="Standout-text">Software Engineering</span>, System Programming, <span class="Standout-text">Web Programming</span>,\n` +
+            `Software Development, Data Structures, Database Management, Mobile Software\n` +
+            `Development, Computer Networks`
     };
 
     /**
@@ -33,7 +35,6 @@ const Education = () => {
 
     return (
         <div className="Education">
-            <h2 className="Resume-title">Education</h2>
             <div className="School-information">
                 <p>{degree} | {university} </p>
                 <p>{status}, {year} {college}</p>
@@ -42,8 +43,11 @@ const Education = () => {
                 <ul>
                     <li>GPA: {gpa}</li>
                     <li>Major: {major}</li>
-                    <li>Related Coursework: {relatedCourseWork}</li>
+                    <li dangerouslySetInnerHTML={{ __html: relatedCourseWork}}></li>
                 </ul>
+            </div>
+            <div className="Resume-img">
+            <img src={logo} alt="University of Georgia Logo" />
             </div>
         </div>
     );

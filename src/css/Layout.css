@@ -1,28 +1,25 @@
 .Layout-body {
-    /*background-color: #6B8EE5;*/
-    background-color: #191919;
-    background-image: url('../imgs/background.jpg') ;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background: linear-gradient(0deg,  #F6F5F8 70%, #E3E3E3 80%);
     min-height: 100vh;
-    padding: 1.7em 0.2em 1.7em 1.7em;
+    padding: 0 0.2em 1.7em 1.7em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(5px + 2vmin);
-    color: gray;
+    color: #36454F;
 }
 
 .Layout-header {
-    background-color: #D9D8DF;
     top: 0;
+    background-color: #E3E3E3;
     width: 100%; /* Full width */
 }
 
 .Layout-footer {
     display: flex;
-    background-color: #D9D8DF;
+    background-color: #F6F5F8;
+    justify-content: flex-end;
     width: 100%; /* Full width */
 }
 
@@ -36,7 +33,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    overflow: hidden;
 }
 
 .Nav-right a {
@@ -46,15 +43,50 @@
     font-weight: bolder;
 }
 
-.Nav-right a:hover {
+.Nav-right a:hover, .Drop-down:hover #Drop-down-button{
     background-color: white;
 }
 
 .Standout-text {
     /*color: #FFE667;*/
-    color: #CCA316;
+    color: #C60021;
 }
 
-ul {
-    list-style: none;
+.Drop-down {
+    float: left;
+    overflow: hidden;
 }
+
+.Drop-down #Drop-down-button {
+    font-size: inherit;
+    display: inherit;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.Drop-down-resume {
+    display: none;
+    background-color: #F6F5F8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Drop-down-resume a {
+    float: none;
+    color: darkslategrey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-flex;
+    text-align: left;
+}
+
+.Drop-down:hover .Drop-down-resume {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+
+

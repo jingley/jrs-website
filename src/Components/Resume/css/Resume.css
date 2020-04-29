@@ -2,34 +2,64 @@
     display: inherit;
     align-items: center;
     justify-content: center;
+    padding-left: 30px ;
+    width: 60%;
+    margin: auto;
+    text-indent: -30px ;
+    text-align: left;
 }
 
 .Resume-bullets li {
     list-style-position: inside;
-    width: 60%;
-    margin: auto;
+}
+
+.Section-title {
+    display: flex;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Resume-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.Resume-img img {
+    width: 400px;
 }
 
 .School-information {
     display: inherit;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
     text-align: center;
+    width: 60%;
+    font-size: calc(6px + 2vmin);
 }
 
 .Resume-title {
-    text-decoration: underline;
-    margin: 0;
-    padding: 0;
-    display: inherit;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin: auto;
+    width: 60%;
+    display: flex;
+    font-size: calc(6px + 2vmin);
+}
+
+.Coding-skills li{
+    display: inline;
+    padding-right: 1em;
+}
+
+ul {
+    list-style: none;
 }
 
 .Resume-body {
-    width: 100%;
+    width: auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }

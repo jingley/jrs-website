@@ -9,7 +9,34 @@ const Layout = (props) => {
                 <nav>
                     <div className="Nav-right">
                         <Link to="/">Home</Link>
-                        <Link to="/resume">Resume</Link>
+                        <div className="Drop-down">
+                        <Link id="Drop-down-button" to={{
+                            pathname: '/resume',
+                            state: {
+                                section: 'education'
+                            }
+                        }}>Resume</Link>
+                        <span className="Drop-down-resume">
+                            <Link to={{
+                                pathname: '/resume',
+                                state: {
+                                    section: 'education'
+                                }
+                            }}>Education</Link>
+                            <Link to={{
+                                pathname: '/resume',
+                                state: {
+                                    section: 'skills'
+                                }
+                            }}>Skills & Abilities</Link>
+                            <Link to={{
+                                pathname: '/resume',
+                                state: {
+                                    section: 'work'
+                                }
+                            }}>Work Experience</Link>
+                        </span>
+                        </div>
                     </div>
                 </nav>
             </header>
@@ -17,7 +44,7 @@ const Layout = (props) => {
                 {props.children }
             </div>
             <footer className="Layout-footer">
-                <p>THIS WEBSITE IS STILL UNDER DEVELOPMENT!</p>
+                <p>Jon Ross Ingley's Resume Website 2020</p>
             </footer>
         </div>
     )

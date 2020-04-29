@@ -20,11 +20,11 @@ const Sabre = () => {
         a1: 'We used RallyDevTeams to handle assigning user stories, updating progress, and completion.',
         a2: `Throughout the project, I became very comfortable working with <span class="Standout-text">Git</span> through Windows GitBash to interact with the team’s BitBucket. I used Git in a capacity that 
         I never have had to before for smaller University projects with 1 or a few people working simultaneously. `,
-        a3: 'For every development, I created unit tests with Enzyme and Jest to self check my own code before being submitted to code review by my team.',
+        a3: `For every development, I created <span class="Standout-text">unit tests</span> with Enzyme and Jest to self check my own code before being submitted to code review by my team.`,
         a4: 'We used TeamCity to handle our build management for continuous integration; after these tests passed, we could merge our changes, and await QA’s assessment.',
         b: 'During the last week of my internship, the team was beginning to work on a new Java REST API. The project was hosted and developed in the cloud.',
         b1: 'The API was be deployed as Docker images to guarantee uniform behavior on any host during development.',
-        b2: 'I examined the Jenkins pipeline with the team project leader. The project used Jenkins to automate their CI/CD. The pipeline was triggered by changes to the git branch, ' +
+        b2: 'I examined the Jenkins pipeline with the team project leader. The project used <span class="Standout-text">Jenkins to automate their CI/CD</span>. The pipeline was triggered by changes to the git branch, ' +
             'and would then run through several stages: ex. compile, build docker images, testing, deployment. Those being predefined within a pipeline yaml file. '
     };
 

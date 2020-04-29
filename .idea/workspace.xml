@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/imgs/uga.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Sabre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Sabre.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imgs/backgroudn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imgs/background.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +60,16 @@
     <property name="ts.external.directory.path" value="C:\Users\jingl\Documents\MyProjects\jrs-website\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Resume\Sections" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\css" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Pages\Home\css" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Pages\Home" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Pages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Resume\Sections" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.Sabre tests">
@@ -175,7 +184,7 @@
       <workItem from="1585516414023" duration="2945000" />
       <workItem from="1585590006359" duration="18348000" />
       <workItem from="1588173180161" duration="162000" />
-      <workItem from="1588173533715" duration="1395000" />
+      <workItem from="1588173533715" duration="10879000" />
     </task>
     <servers />
   </component>
@@ -203,26 +212,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1588173319071" />
+    <state x="883" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588182763479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="883" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588182763479" />
     <state x="526" y="160" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585614605331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="160" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585614605331" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1588173978062">
+    <state width="724" height="205" key="GridCell.Tab.0.bottom" timestamp="1588182740756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588173978062" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1588173978061">
+    <state width="724" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588182740756" />
+    <state width="724" height="205" key="GridCell.Tab.0.center" timestamp="1588182740756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588173978061" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1588173978061">
+    <state width="724" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588182740756" />
+    <state width="724" height="205" key="GridCell.Tab.0.left" timestamp="1588182740756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588173978061" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1588173978061">
+    <state width="724" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588182740756" />
+    <state width="724" height="205" key="GridCell.Tab.0.right" timestamp="1588182740756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588173978061" />
+    <state width="724" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588182740756" />
     <state x="0" y="158" key="IDE.errors.dialog" timestamp="1585590797551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

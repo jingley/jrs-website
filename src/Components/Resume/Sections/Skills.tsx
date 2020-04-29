@@ -22,14 +22,14 @@ const Skills = () => {
       <div className="Skills">
           <h2 className="Resume-title" id="coding" >Coding Languages</h2>
           <div className="Resume-bullets">
-              <ul>
+              <ul className="Coding-skills">
                   <li>Java</li>
                   <li><span className="Standout-text">JavaScript</span></li>
               </ul>
           </div>
           <h2 className="Resume-title" id="tech" >Technologies</h2>
           <div className="Resume-bullets">
-              <ul>
+              <ul className="Coding-skills">
                   <li><span className="Standout-text">React</span></li>
                   <li>Redux</li>
                   <li>RxJs</li>
