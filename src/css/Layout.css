@@ -1,25 +1,31 @@
-.Layout-body {
-    background: linear-gradient(0deg,  #F6F5F8 70%, #E3E3E3 80%);
-    min-height: 100vh;
-    padding: 0 0.2em 1.7em 1.7em;
+.Layout {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-color: #FBF5F3;
+    min-height: 100vh;
+}
+.Layout-body {
+    display: flex;
+    overflow: hidden;
+    /*background: linear-gradient( #f9f9f9, #ffe0ac 400px);*/
+    /*background: linear-gradient(#89ABE3FF, #FCF6F5FF 400px);*/
     justify-content: center;
+    margin-bottom: 3vh;
+    flex-grow: 1;
     font-size: calc(5px + 2vmin);
-    color: #36454F;
+    color: black;
 }
 
 .Layout-header {
     top: 0;
-    background-color: #E3E3E3;
+    background-color: #8DAA9D;
     width: 100%; /* Full width */
 }
 
 .Layout-footer {
     display: flex;
-    background-color: #F6F5F8;
-    justify-content: flex-end;
+    background-color: #FBF5F3;
+    justify-content: center;
     width: 100%; /* Full width */
 }
 
@@ -38,18 +44,18 @@
 
 .Nav-right a {
     padding: 1em;
-    color: darkslategrey;
+    color: black;
+    text-shadow: 1px 1px lightgray;
     text-decoration: none;
     font-weight: bolder;
 }
 
 .Nav-right a:hover, .Drop-down:hover #Drop-down-button{
-    background-color: white;
+    background-color: #FBF5F3;
 }
 
 .Standout-text {
-    /*color: #FFE667;*/
-    color: #C60021;
+    font-weight: bolder;
 }
 
 .Drop-down {
@@ -69,24 +75,46 @@
 
 .Drop-down-resume {
     display: none;
-    background-color: #F6F5F8;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .Drop-down-resume a {
+    background-color: #FBF5F3;
     float: none;
-    color: darkslategrey;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: inline-flex;
     text-align: left;
 }
 
+.Drop-down-resume a:hover {
+    background-color: #D3D3D3;
+}
+
 .Drop-down:hover .Drop-down-resume {
     display: flex;
     position: absolute;
     flex-direction: column;
+}
+
+.Section-title {
+    display: flex;
+    min-height: 25vh;
+    width: 100%;
+    /*background: linear-gradient(#89ABE3FF, #E3E3E3);*/
+    background: #8DAA9D;
+    color: black;
+    margin: 0 auto 7vh auto;
+    font-size: calc(10px + 3vmin);
+    padding: 0;
+    justify-content: center;
+}
+
+.Section-title h1 {
+    margin: auto;
+    text-shadow: 1.5px 1.5px lightgray;
 }
 
 

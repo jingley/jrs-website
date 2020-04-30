@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
-body {
+* {
   margin: 0;
   padding: 0;
+}
+
+html, body {
+  display: flex;
+  min-height: 100vh;
+  background-color: #FBF5F3;
+  /*background: linear-gradient(0deg,  #F6F5F8 55%, #E3E3E3 65%);*/
+}
+
+body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

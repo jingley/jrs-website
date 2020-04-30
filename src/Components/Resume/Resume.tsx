@@ -6,6 +6,7 @@ import React from 'react';
 import Education from './Sections/Education';
 import Layout from '../../Layout';
 import Skills from './Sections/Skills';
+import {Link} from 'react-router-dom'
 import Work from './Sections/Work';
 import './css/Resume.css'
 
@@ -16,11 +17,19 @@ const Resume = (props) => {
             return (
                 <Layout>
                     <div className="Resume">
+                        <div className="Resume-body">
                         <header className="Resume-header">
                             <div className="Section-title"><h1>Education</h1></div>
                         </header>
-                        <div className="Resume-body">
                             <Education/>
+                        <div className="Next-button">
+                            <Link to={{
+                                pathname: '/resume',
+                                state: {
+                                    section: 'skills'
+                                }
+                            }}>Go to Skills & Abilities</Link>
+                        </div>
                         </div>
                     </div>
                 </Layout>
@@ -36,6 +45,20 @@ const Resume = (props) => {
                         <div className="Resume-body">
                             <Skills/>
                         </div>
+                        <div className="Next-button">
+                            <Link to={{
+                                pathname: '/resume',
+                                state: {
+                                    section: 'work'
+                                }
+                            }}>Go to Work Experience</Link>
+                            <Link to={{
+                                pathname: '/resume',
+                                state: {
+                                    section: 'education'
+                                }
+                            }}>Go back to Education</Link>
+                        </div>
                     </div>
                 </Layout>
             );
@@ -47,6 +70,14 @@ const Resume = (props) => {
                         <div className="Section-title"><h1>Work Experience</h1></div>
                         <div className="Resume-body">
                             <Work/>
+                        </div>
+                        <div className="Next-button">
+                            <Link to={{
+                                pathname: '/resume',
+                                state: {
+                                    section: 'skills'
+                                }
+                            }}>Go back to Skills & Abilities</Link>
                         </div>
                     </div>
                 </Layout>

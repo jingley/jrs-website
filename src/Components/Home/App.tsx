@@ -16,10 +16,12 @@ const App = () => {
         <div className="App">
             <header className="App-header">
             <img src={require('../../imgs/download-removebg-preview.png')} className="App-logo" alt="logo" />
+            </header>
+            <div className="App-body">
             <p>
                 Hi! I'm Jon Ross Ingley. Welcome to my resume website. It's a simple <span className="Standout-text">React App</span> deployed on github pages. Feel free to look around :)
             </p>
-            </header>
+            </div>
         </div>
       </Layout>
   );

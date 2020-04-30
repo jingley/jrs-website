@@ -1,25 +1,28 @@
 .Resume-bullets {
     display: inherit;
-    align-items: center;
-    justify-content: center;
-    padding-left: 30px ;
+    text-align: justify;
     width: 60%;
-    margin: auto;
-    text-indent: -30px ;
-    text-align: left;
+    margin: 0 auto 0 auto;
+    /*text-indent: -30px ;
+    padding-left: 30px ;*/
 }
 
 .Resume-bullets li {
     list-style-position: inside;
+    margin-bottom: 12px;
 }
 
-.Section-title {
+.Next-button {
     display: flex;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    flex-direction: column;
+    align-content: center;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
+}
+
+.Next-button a {
+    margin: 8px;
+    color: black
 }
 
 .Resume-img {
@@ -27,6 +30,7 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+    margin-bottom: 1vh;
 }
 
 .Resume-img img {
@@ -35,22 +39,29 @@
 
 .School-information {
     display: inherit;
-    margin: auto;
+    margin: 0 auto 10px auto;
     text-align: center;
     width: 60%;
-    font-size: calc(6px + 2vmin);
+    font-size: calc(8px + 2vmin);
 }
 
 .Resume-title {
-    margin: auto;
+    margin: 0 auto 10px auto;
+    justify-content: center;
     width: 60%;
     display: flex;
-    font-size: calc(6px + 2vmin);
+    font-size: calc(8px + 2vmin);
 }
 
 .Coding-skills li{
     display: inline;
     padding-right: 1em;
+    margin-bottom: 4vh;
+}
+
+.Coding-skills {
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
@@ -59,7 +70,4 @@ ul {
 
 .Resume-body {
     width: auto;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
 }

@@ -20,16 +20,11 @@ const Skills = () => {
 
     return (
       <div className="Skills">
-          <h2 className="Resume-title" id="coding" >Coding Languages</h2>
+          <h2 className="Resume-title" id="coding" >Coding Languages & Technologies</h2>
           <div className="Resume-bullets">
               <ul className="Coding-skills">
                   <li>Java</li>
                   <li><span className="Standout-text">JavaScript</span></li>
-              </ul>
-          </div>
-          <h2 className="Resume-title" id="tech" >Technologies</h2>
-          <div className="Resume-bullets">
-              <ul className="Coding-skills">
                   <li><span className="Standout-text">React</span></li>
                   <li>Redux</li>
                   <li>RxJs</li>

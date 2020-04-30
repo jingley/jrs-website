@@ -5,12 +5,14 @@ import './css/index.css';
 import App from './Components/Home/App';
 import Resume from './Components/Resume/Resume';
 import * as serviceWorker from './serviceWorker';
+import About from './Components/About/About';
 
 const routing = (
     <Router basename={ process.env.PUBLIC_URL }>
         <div>
             <Route path="/" exact component={App} />
             <Route path="/resume" component={Resume} />
+            <Route path="/about" component={About} />
         </div>
     </Router>
 );

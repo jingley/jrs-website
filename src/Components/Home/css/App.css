@@ -1,10 +1,13 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
   text-align: center;
 }
 
 .App-logo {
-  height: 60vmin;
-  margin-bottom: 3em;
+  height: 40vmin;
+  margin: 3em;
   pointer-events: none;
 }
 
@@ -15,12 +18,11 @@
 }
 
 .App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  background-color: #8DAA9D;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 7vh;
 }
 
 .App-link {

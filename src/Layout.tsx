@@ -37,6 +37,7 @@ const Layout = (props) => {
                             }}>Work Experience</Link>
                         </span>
                         </div>
+                        <Link to="/about">About Me</Link>
                     </div>
                 </nav>
             </header>
@@ -44,7 +45,7 @@ const Layout = (props) => {
                 {props.children }
             </div>
             <footer className="Layout-footer">
-                <p>Jon Ross Ingley's Resume Website 2020</p>
+                <p>Jon Ross Ingley &copy; 2020</p>
             </footer>
         </div>
     )
