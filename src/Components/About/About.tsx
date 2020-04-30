@@ -146,7 +146,7 @@ const About = () => {
                                 I did. As I mentioned before, I got to play Frisbee in South Korea, and I met all of my friends there through that. These were South Korean natives and other people from across the world: Canada,
                                 USA, Italy, Germany, Mexico, just to name a few. We all grew up in different places with different values, and that made the experiences we made together all the more special. What I respect the most about Korean culture is
                                 their emphasis on family (extending to friends as well). All the people I met made this lonely foreigner feel right at home for the entirety of my trip. I look forward to returning to visit sometime soon :) <i>Oh, and don't
-                                get me started on how insanely good Korean food is hahaha.</i></p>
+                                get me started on how insanely good Korean food is.</i></p>
                             </div>
                             <div className="Images">
                                 <ImageGallery items={koreaImages} showThumbnails={false}/>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +174,7 @@
       <workItem from="1588173180161" duration="162000" />
       <workItem from="1588173533715" duration="20543000" />
       <workItem from="1588254009616" duration="19932000" />
-      <workItem from="1588275598793" duration="813000" />
+      <workItem from="1588275598793" duration="900000" />
     </task>
     <servers />
   </component>
