@@ -3,16 +3,16 @@
     flex-direction: column;
     background-color: #FBF5F3;
     min-height: 100vh;
+    width: 100%
 }
 .Layout-body {
     display: flex;
     overflow: hidden;
-    /*background: linear-gradient( #f9f9f9, #ffe0ac 400px);*/
-    /*background: linear-gradient(#89ABE3FF, #FCF6F5FF 400px);*/
+    width: 100%;
     justify-content: center;
     margin-bottom: 3vh;
     flex-grow: 1;
-    font-size: calc(5px + 2vmin);
+    font-size: 2vh;
     color: black;
 }
 
@@ -24,6 +24,7 @@
 
 .Layout-footer {
     display: flex;
+    margin: 1vmin 0;
     background-color: #FBF5F3;
     justify-content: center;
     width: 100%; /* Full width */
@@ -37,6 +38,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    width: 100%;
     flex-direction: row;
     align-items: center;
     overflow: hidden;
@@ -103,11 +105,10 @@
     display: flex;
     min-height: 25vh;
     width: 100%;
-    /*background: linear-gradient(#89ABE3FF, #E3E3E3);*/
     background: #8DAA9D;
     color: black;
     margin: 0 auto 7vh auto;
-    font-size: calc(10px + 3vmin);
+    font-size: 5vmin;
     padding: 0;
     justify-content: center;
 }
@@ -118,4 +119,9 @@
     text-shadow: 1.5px 1.5px lightgray;
 }
 
+@media screen and (max-width: 1200px) {
+    .Section-title {
+        min-height: 20vh;
+    }
+}
 

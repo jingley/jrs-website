@@ -3,8 +3,6 @@
     text-align: justify;
     width: 60%;
     margin: 0 auto 0 auto;
-    /*text-indent: -30px ;
-    padding-left: 30px ;*/
 }
 
 .Resume-bullets li {
@@ -34,7 +32,7 @@
 }
 
 .Resume-img img {
-    max-width: 40%;
+    max-width: 30%;
 }
 
 .School-information {
@@ -42,7 +40,7 @@
     margin: 0 auto 10px auto;
     text-align: center;
     width: 60%;
-    font-size: calc(8px + 2vmin);
+    font-size: 2.5vh;
 }
 
 .Resume-title {
@@ -51,7 +49,7 @@
     width: 60%;
     text-align: center;
     display: flex;
-    font-size: calc(8px + 2vmin);
+    font-size: 3vh;
 }
 
 .Coding-skills li {
@@ -70,6 +68,16 @@ ul {
     list-style: none;
 }
 
+.Education {
+    width: 100vw;
+}
+
 .Resume-body {
-    width: auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .Resume-bullets {
+        width: 80%;
+    }
 }

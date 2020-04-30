@@ -43,11 +43,11 @@ const Education = () => {
                 <ul>
                     <li>GPA: {gpa}</li>
                     <li>Major: {major}</li>
-                    <li dangerouslySetInnerHTML={{ __html: relatedCourseWork}}></li>
+                    <li dangerouslySetInnerHTML={{ __html: relatedCourseWork}}/>
                 </ul>
             </div>
             <div className="Resume-img">
-            <img src={logo} alt="University of Georgia Logo" />
+                <img src={logo} alt="University of Georgia Logo" />
             </div>
         </div>
     );
