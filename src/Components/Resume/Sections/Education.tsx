@@ -17,7 +17,7 @@ const Education = () => {
      */
     const props = {
         major: 'Computer Science',
-        status: 'In Progress',
+        status: 'Graduating',
         year: 'May 2020',
         degree: 'Bachelor of Science',
         college: 'Franklin College of Arts and Sciences',
