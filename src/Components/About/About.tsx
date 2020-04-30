@@ -5,7 +5,7 @@ import ImageGallery from 'react-image-gallery';
 
 const About = () => {
 
-    const images = [
+    const frisbeeImages = [
         {
             original: require('../../imgs/frisbee/1.jpg')
         },
@@ -48,7 +48,67 @@ const About = () => {
         {
             original: require('../../imgs/frisbee/17.jpg')
         },
-    ]
+    ];
+
+    const koreaImages = [
+        {
+            original: require('../../imgs/korea/1.jpg')
+        },
+        {
+            original: require('../../imgs/korea/2.jpg')
+        },
+        {
+            original: require('../../imgs/korea/3.jpg')
+        },
+        {
+            original: require('../../imgs/korea/4.jpg')
+        },
+        {
+            original: require('../../imgs/korea/5.jpg')
+        },
+        {
+            original: require('../../imgs/korea/6.jpg')
+        },
+        {
+            original: require('../../imgs/korea/7.jpg')
+        },
+        {
+            original: require('../../imgs/korea/8.jpg')
+        },
+        {
+            original: require('../../imgs/korea/9.jpg')
+        },
+        {
+            original: require('../../imgs/korea/10.jpg')
+        },
+        {
+            original: require('../../imgs/korea/11.jpg')
+        },
+        {
+            original: require('../../imgs/korea/12.jpg')
+        },
+        {
+            original: require('../../imgs/korea/13.jpg')
+        },
+        {
+            original: require('../../imgs/korea/14.jpg')
+        },
+        {
+            original: require('../../imgs/korea/15.jpg')
+        },
+        {
+            original: require('../../imgs/korea/16.jpg')
+        },
+        {
+            original: require('../../imgs/korea/17.jpg')
+        },
+        {
+            original: require('../../imgs/korea/18.jpg')
+        },
+        {
+            original: require('../../imgs/korea/19.jpg')
+        },
+    ];
 
     return (
         <Layout>
@@ -72,7 +132,24 @@ const About = () => {
                                     Tennessee, and <span className="Standout-text">South Korea</span>. That's probably what I love most about the sport: the ability to meet people of different experiences all over the world, and be able to connect through Ultimate.</p>
                             </div>
                             <div className="Images">
-                                <ImageGallery items={images} showThumbnails={false}/>
+                                <ImageGallery items={frisbeeImages} showThumbnails={false}/>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div className="Section">
+                            <div className="Text">
+                                <h1 id="about-title">My Summer Abroad in South Korea</h1>
+                                <p id="about-text">As a part of my University's degree requirements, I had to take 3 semesters of a foreign language. My roommate at the time, advised me to take Korean, and I did. This might have been the second
+                                most influential decision I made at UGA (behind joining the Ultimate Frisbee club). I never imagined I would find such an interest in learning a new language and its culture. After
+                                taking the 2 intro courses, I decided to go study abroad during the summer of 2018. Prior to this experience, I was blinded by my own reality to the world. It made no sense to me if people didn't see something like
+                                I did. As I mentioned before, I got to play Frisbee in South Korea, and I met all of my friends there through that. These were South Korean natives and other people from across the world: Canada,
+                                USA, Italy, Germany, Mexico, just to name a few. We all grew up in different places with different values, and that made the experiences we made together all the more special. What I respect the most about Korean culture is
+                                their emphasis on family (extending to friends as well). All the people I met made this lonely foreigner feel right at home for the entirety of my trip. I look forward to returning to visit sometime soon :) <i>Oh, and don't
+                                get me started on how insanely good Korean food is hahaha.</i></p>
+                            </div>
+                            <div className="Images">
+                                <ImageGallery items={koreaImages} showThumbnails={false}/>
                             </div>
                         </div>
                     </section>

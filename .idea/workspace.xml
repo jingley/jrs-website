@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/About/About.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/About/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/About/css/About.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About/css/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/css/About.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +175,7 @@
       <workItem from="1585590006359" duration="18348000" />
       <workItem from="1588173180161" duration="162000" />
       <workItem from="1588173533715" duration="20543000" />
-      <workItem from="1588254009616" duration="17708000" />
+      <workItem from="1588254009616" duration="19932000" />
     </task>
     <servers />
   </component>
