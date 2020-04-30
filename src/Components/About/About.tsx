@@ -126,10 +126,12 @@ const About = () => {
                         <div className="Section">
                             <div className="Text">
                                 <h1 id="about-title">My History With Ultimate Frisbee</h1>
-                                <p id="about-text">For the last 5 years, I played Ultimate frisbee year-round. I played in the college level for the University of Georgia's team, Jojah, as well as captained the team for 2 years.
-                                    We competed nationally 3 times in the last 4 years, and we won the regional championship 3 times as well. I also play for a summer club team, Murmur.
-                            On top of my official teams, I have had the pleasure of playing around the country and the world: California, Wisconsin, Georgia, Florida, North Carolina,
-                                    Tennessee, and <span className="Standout-text">South Korea</span>. That's probably what I love most about the sport: the ability to meet people of different experiences all over the world, and be able to connect through Ultimate.</p>
+                                <p id="about-text">For the last five years, I played Ultimate frisbee year-round for UGA’s collegiate-level team,
+                                    Jojah In my final two years with the team, I also served as a team captain.  Our team competed nationally in
+                                    three of the last four years, and we won the regional championship three times as well. I have also played for
+                                    a summer club frisbee team, Murmur. Frisbee has afforded me opportunities to  play across the country and
+                                    around the world. What I love most about the sport is the ability to meet people of varying cultures and
+                                    backgrounds from all parts of the world.</p>
                             </div>
                             <div className="Images">
                                 <ImageGallery items={frisbeeImages} showThumbnails={false}/>
@@ -140,13 +142,19 @@ const About = () => {
                         <div className="Section">
                             <div className="Text">
                                 <h1 id="about-title">My Summer Abroad in South Korea</h1>
-                                <p id="about-text">As a part of my University's degree requirements, I had to take 3 semesters of a foreign language. My roommate at the time, advised me to take Korean, and I did. This might have been the second
-                                most influential decision I made at UGA (behind joining the Ultimate Frisbee club). I never imagined I would find such an interest in learning a new language and its culture. After
-                                taking the 2 intro courses, I decided to go study abroad during the summer of 2018. Prior to this experience, I was blinded by my own reality to the world. It made no sense to me if people didn't see something like
-                                I did. As I mentioned before, I got to play Frisbee in South Korea, and I met all of my friends there through that. These were South Korean natives and other people from across the world: Canada,
-                                USA, Italy, Germany, Mexico, just to name a few. We all grew up in different places with different values, and that made the experiences we made together all the more special. What I respect the most about Korean culture is
-                                their emphasis on family (extending to friends as well). All the people I met made this lonely foreigner feel right at home for the entirety of my trip. I look forward to returning to visit sometime soon :) <i>Oh, and don't
-                                get me started on how insanely good Korean food is.</i></p>
+                                <p id="about-text">As a component of my degree requirements, I took three semesters of a foreign language.
+                                    At the suggestion of my roommate, I chose to enroll in Korean language classes. This decision may have
+                                    been one of the  most influential choices I made at UGA. I never imagined I would develop such a strong
+                                    passion for learning a new language, in addition to a completely different culture. After taking the two
+                                    introductory courses, I chose to study abroad during Summer, 2018. Prior to this experience, I was naïve
+                                    to a world beyond western culture . It made no sense to me if people didn't see something precisely from my
+                                    perspective. I had opportunities to play Frisbee in South Korea, which provided me an opportunity to make new
+                                    friends.  Most of my new friends were native South Koreans, while other ones hailed from Canada, Italy,
+                                    Germany, Mexico and other countries. We all grew up in different places with different values, and that
+                                    made our experiences together all the more special. What I admire most about Korean culture is its emphasis
+                                    on family, which includes not only one’s nuclear family, but also one’s friends. All the people I befriended
+                                    made this lonely foreigner feel right at home for the entirety of my trip. I look forward to returning to visit
+                                    sometime soon  Oh, and don't get me started on how insanely good Korean food is!</p>
                             </div>
                             <div className="Images">
                                 <ImageGallery items={koreaImages} showThumbnails={false}/>
