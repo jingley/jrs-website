@@ -49,19 +49,21 @@
     margin: 0 auto 10px auto;
     justify-content: center;
     width: 60%;
+    text-align: center;
     display: flex;
     font-size: calc(8px + 2vmin);
 }
 
-.Coding-skills li{
-    display: inline;
+.Coding-skills li {
     padding-right: 1em;
     margin-bottom: 4vh;
 }
 
 .Coding-skills {
     display: flex;
-    justify-content: space-between;
+    max-width: 60%;
+    margin: auto;
+    justify-content: space-evenly;
 }
 
 ul {
