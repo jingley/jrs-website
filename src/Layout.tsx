@@ -35,6 +35,9 @@ const Layout = (props) => {
                                     section: 'work'
                                 }
                             }}>Work Experience</Link>
+                            <Link to='/files/resume.pdf' target='_blank' download>
+                                Download PDF
+                            </Link>
                         </span>
                         </div>
                         <Link to="/about">About Me</Link>
