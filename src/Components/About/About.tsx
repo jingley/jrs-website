@@ -126,7 +126,7 @@ const About = () => {
                         <div className="Section">
                             <div className="Text">
                                 <h1 id="about-title">My History With Ultimate Frisbee</h1>
-                                <p id="about-text">For the last 5 years, I played Ultimate frisbee year-round. I played collegiality for the University of Georgia's team, Jojah, as well as captained the team for 2 years.
+                                <p id="about-text">For the last 5 years, I played Ultimate frisbee year-round. I played in the college level for the University of Georgia's team, Jojah, as well as captained the team for 2 years.
                                     We competed nationally 3 times in the last 4 years, and we won the regional championship 3 times as well. I also play for a summer club team, Murmur.
                             On top of my official teams, I have had the pleasure of playing around the country and the world: California, Wisconsin, Georgia, Florida, North Carolina,
                                     Tennessee, and <span className="Standout-text">South Korea</span>. That's probably what I love most about the sport: the ability to meet people of different experiences all over the world, and be able to connect through Ultimate.</p>
