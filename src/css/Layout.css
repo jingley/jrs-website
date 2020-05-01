@@ -161,8 +161,8 @@
         display: none;
     }
 
-    .Nav-right a:hover, .Drop-down:hover #Drop-down-button{
-        background-color: #8DAA9D;
+    .Nav-right a:active, .Drop-down:active #Drop-down-button {
+        background-color: lightsteelblue;
     }
 }
 
