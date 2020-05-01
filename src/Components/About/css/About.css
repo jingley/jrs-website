@@ -42,10 +42,6 @@
     width: 50%;
     margin: auto;
     align-items: flex-end;
-}
-
-.Images img {
-    max-width: 80%;
     height:50vh;
 }
 
