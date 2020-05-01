@@ -32,7 +32,7 @@
 }
 
 .Resume-img img {
-    max-width: 30%;
+    max-width: 25%;
 }
 
 .School-information {
@@ -69,7 +69,10 @@ ul {
     list-style: none;
 }
 
-.Resume-body {
+.Resume {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     width: 100%;
 }
 

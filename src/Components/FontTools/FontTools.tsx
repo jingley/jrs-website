@@ -31,9 +31,11 @@ export default class FontTools extends React.Component {
     render() {
         return (
             <div className="FontTools">
-                <p className="fontText">Font Sizing Tools</p>
-                <button className="fontUp" onClick={this.fontUp}>+</button>
-                <button className="fontDown" onClick={this.fontDown}>-</button>
+                <p className="fontText">Font Tools</p>
+                <div className="Font-buttons">
+                    <button className="fontUp" onClick={this.fontUp}>+</button>
+                    <button className="fontDown" onClick={this.fontDown}>-</button>
+                </div>
             </div>
         );
     };

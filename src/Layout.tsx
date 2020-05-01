@@ -73,6 +73,7 @@ const Layout = (props) => {
                     <FontTools/>
                 </aside>
             </div>
+            <div className="Fill-Space"/>
             <footer className="Layout-footer">
                 <p>Jon Ross Ingley &copy; 2020</p>
             </footer>
