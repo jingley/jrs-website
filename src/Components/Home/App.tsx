@@ -15,7 +15,7 @@ const App = () => {
       <Layout>
         <div className="App">
             <header className="App-header">
-            <img src={require('../../imgs/download-removebg-preview.png')} className="App-logo" alt="logo" />
+            <img src={require('../../imgs/download-removebg-preview.png')} alt="Spinning Head Shot of JR" className="App-logo"/>
             </header>
             <div className="App-body">
                 <p>
@@ -29,7 +29,7 @@ const App = () => {
                     Please take a look around the site and contact me with the links below
                 </p>
                 <div className="Socials">
-                    <a id="linked-in" href="https://www.linkedin.com/in/jon-ross-ingley-810989170" rel="noopener noreferrer" target="_blank"><img src={require('../../imgs/LI-In-Bug-BW.png')}/></a>
+                    <a id="linked-in" href="https://www.linkedin.com/in/jon-ross-ingley-810989170" rel="noopener noreferrer" target="_blank"><img src={require('../../imgs/LI-In-Bug-BW.png')} alt="LinkedIn Logo"/></a>
                     <a id="email" href="mailto:jingley22@gmail.com">@</a>
                 </div>
             </div>
