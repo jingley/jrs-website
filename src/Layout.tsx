@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './css/Layout.css';
+import FontTools from './Components/FontTools/FontTools';
 
 const Layout = (props) => {
 
@@ -66,8 +67,11 @@ const Layout = (props) => {
                     </div>
                 </nav>
             </header>
-            <div className="Layout-body">
+            <div className="Layout-body" id="Layout-fonts">
                 {props.children }
+                <aside className="Layout-aside">
+                    <FontTools/>
+                </aside>
             </div>
             <footer className="Layout-footer">
                 <p>Jon Ross Ingley &copy; 2020</p>

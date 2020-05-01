@@ -16,6 +16,13 @@
     color: black;
 }
 
+.Layout-aside {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 1vh;
+}
+
 .Layout-header {
     top: 0;
     background-color: #8DAA9D;
@@ -44,7 +51,7 @@
     overflow: hidden;
 }
 
-.Nav-right a.icon {
+.Nav-right p.icon {
     display: none;
 }
 
@@ -123,7 +130,7 @@
     text-shadow: 1.5px 1.5px lightgray;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     .Section-title {
         min-height: 20vh;
         font-size: 2.5vh;
@@ -164,5 +171,14 @@
     .Nav-right a:active, .Drop-down:active #Drop-down-button {
         background-color: lightsteelblue;
     }
+
+    .Layout-body {
+        margin-bottom: 8vh;
+    }
+
+    .Layout-aside {
+        left: auto;
+    }
 }
+
 

@@ -6,8 +6,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  margin: 3em;
+  height: 35vmin;
+  margin: 4em;
   pointer-events: none;
 }
 
@@ -21,6 +21,7 @@
   width: 100%;
   background-color: #8DAA9D;
   align-items: center;
+  max-height: 100%;
   justify-content: center;
   margin-bottom: 7vh;
 }
