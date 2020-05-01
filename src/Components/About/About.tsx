@@ -134,7 +134,7 @@ const About = () => {
                                     backgrounds from all parts of the world.</p>
                             </div>
                             <div className="Images">
-                                <ImageGallery items={frisbeeImages} showThumbnails={false} useBrowserFullscreen={false}/>
+                                <ImageGallery id="ImageGallery" items={frisbeeImages} showThumbnails={false} useBrowserFullscreen={false}/>
                             </div>
                         </div>
                     </section>

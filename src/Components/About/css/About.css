@@ -19,6 +19,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 4vh 0;
+    flex-grow: 1;
 }
 
 #about-title {
@@ -42,7 +43,10 @@
     width: 50%;
     margin: auto;
     align-items: flex-end;
-    height:50vh;
+}
+
+.Images img {
+    height: 60vh;
 }
 
 @media screen and (max-width: 1200px) {
