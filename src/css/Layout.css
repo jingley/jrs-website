@@ -38,9 +38,10 @@
 
 .Layout-footer {
     display: flex;
-    margin: 1vmin 0;
+    flex-direction: row;
     background-color: #FBF5F3;
     justify-content: center;
+    height: 30px;
     width: 100%; /* Full width */
 }
 

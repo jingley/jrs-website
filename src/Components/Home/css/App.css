@@ -33,7 +33,52 @@
 }
 
 .App-body {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-content: space-evenly;
+  justify-content: space-between;
+  align-items: flex-start;
   padding: 7vmin;
+}
+
+.Socials {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.Socials img {
+  height: 4vmin;
+  display: flex;
+  background: transparent;
+  align-content: center;
+  justify-content: center;
+  border: none;
+}
+
+#email {
+  font-size: 4vmin;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.Socials a{
+  display: flex;
+  margin: 1vmin;
+  color: black;
+  text-decoration: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.App-body p {
+  text-align: justify;
+  margin: 1vmin;
 }
 
 .App-link {
