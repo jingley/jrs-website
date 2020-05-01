@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/FontTools/FontTools.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/FontTools/css/FontTools.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FontTools/css/FontTools.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FontTools/css/FontTools.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

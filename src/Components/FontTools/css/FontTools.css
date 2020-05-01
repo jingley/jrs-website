@@ -13,12 +13,7 @@
 }
 
 .FontTools p {
+    background-color: #8DAA9D;
     text-align: center;
     box-shadow: 2px 2px lightgray;
-}
-
-@media screen and (max-width: 1200px) {
-    .FontTools p {
-        background-color: #8DAA9D;
-    }
 }
