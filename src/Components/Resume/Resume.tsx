@@ -12,24 +12,27 @@ import './css/Resume.css'
 
 const Resume = (props) => {
 
-    switch (props.location.state.section) {
-        case 'education' : {
+    let section = 'default';
+    if(props.location.state !== undefined) {
+        section = props.location.state.section;
+    }
+
+    switch (section) {
+        case 'work' : {
             return (
                 <Layout>
                     <div className="Resume">
+                        <div className="Section-title"><h1>Work Experience</h1></div>
                         <div className="Resume-body">
-                        <header className="Resume-header">
-                            <div className="Section-title"><h1>Education</h1></div>
-                        </header>
-                            <Education/>
+                            <Work/>
+                        </div>
                         <div className="Next-button">
                             <Link to={{
                                 pathname: '/resume',
                                 state: {
                                     section: 'skills'
                                 }
-                            }}>Go to Skills & Abilities</Link>
-                        </div>
+                            }}>Go back to Skills & Abilities</Link>
                         </div>
                     </div>
                 </Layout>
@@ -64,20 +67,22 @@ const Resume = (props) => {
             );
         }
         default : {
-            return (
+            return(
                 <Layout>
                     <div className="Resume">
-                        <div className="Section-title"><h1>Work Experience</h1></div>
                         <div className="Resume-body">
-                            <Work/>
-                        </div>
-                        <div className="Next-button">
-                            <Link to={{
-                                pathname: '/resume',
-                                state: {
-                                    section: 'skills'
-                                }
-                            }}>Go back to Skills & Abilities</Link>
+                            <header className="Resume-header">
+                                <div className="Section-title"><h1>Education</h1></div>
+                            </header>
+                            <Education/>
+                            <div className="Next-button">
+                                <Link to={{
+                                    pathname: '/resume',
+                                    state: {
+                                        section: 'skills'
+                                    }
+                                }}>Go to Skills & Abilities</Link>
+                            </div>
                         </div>
                     </div>
                 </Layout>

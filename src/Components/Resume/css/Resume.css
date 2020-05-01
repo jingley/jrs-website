@@ -68,15 +68,11 @@ ul {
     list-style: none;
 }
 
-.Education {
-    width: 100vw;
-}
-
 .Resume-body {
     width: 100%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     .Resume-bullets {
         width: 80%;
     }

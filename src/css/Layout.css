@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: #FBF5F3;
     min-height: 100vh;
-    width: 100%
+    width: 100%;
 }
 .Layout-body {
     display: flex;
@@ -19,7 +19,7 @@
 .Layout-header {
     top: 0;
     background-color: #8DAA9D;
-    width: 100%; /* Full width */
+    width: 100vw; /* Full width */
 }
 
 .Layout-footer {
@@ -42,6 +42,10 @@
     flex-direction: row;
     align-items: center;
     overflow: hidden;
+}
+
+.Nav-right a.icon {
+    display: none;
 }
 
 .Nav-right a {
@@ -104,11 +108,11 @@
 .Section-title {
     display: flex;
     min-height: 25vh;
-    width: 100%;
+    width: 100vw;
     background: #8DAA9D;
     color: black;
     margin: 0 auto 7vh auto;
-    font-size: 5vmin;
+    font-size: 4vh;
     padding: 0;
     justify-content: center;
 }
@@ -119,9 +123,46 @@
     text-shadow: 1.5px 1.5px lightgray;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     .Section-title {
         min-height: 20vh;
+        font-size: 2.5vh;
+    }
+
+    .Nav-right {
+        overflow: hidden;
+    }
+
+    .Nav-right p.icon {
+        background-color: #8DAA9D;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .Nav-right p.icon i {
+        margin: 2.3vh;
+    }
+
+    .Nav-right p.icon:active {
+        background-color: lightsteelblue;
+    }
+
+    .Drop-down:hover .Drop-down-resume {
+        display: none;
+    }
+
+    #drop {
+        display: none;
+    }
+
+    #about {
+        display: none;
+    }
+
+    .Nav-right a:hover, .Drop-down:hover #Drop-down-button{
+        background-color: #8DAA9D;
     }
 }
 
