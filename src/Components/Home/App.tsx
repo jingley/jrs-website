@@ -26,7 +26,7 @@ const App = () => {
                     experiences with new technologies.
                 </p>
                 <p>
-                    Please take a look around the cite and contact me with the links below
+                    Please take a look around the site and contact me with the links below
                 </p>
                 <div className="Socials">
                     <a id="linked-in" href="https://www.linkedin.com/in/jon-ross-ingley-810989170" rel="noopener noreferrer" target="_blank"><img src={require('../../imgs/LI-In-Bug-BW.png')}/></a>
