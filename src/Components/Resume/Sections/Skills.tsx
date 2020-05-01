@@ -13,10 +13,9 @@ const Skills = () => {
     /**
      * string for communication description
      */
-    const communication = 'Communication is something we all do every day, but my experience as a captain ' +
-        'for the Men\'s Club frisbee team has fine-tuned my ' +
-        'ability to communicate as well as to listen. I am constantly communicating with the team via emails, ' +
-        'providing feedback, explaining drills at practice, discussing strategy with fellow leadership, and more.';
+    const communication = 'My experience as a captain has improved my ability to communicate as well ' +
+        'as to listen to others. I am in constant communication with the team via emails, verbal feedback ' +
+        'explanations of drills at practice, and overall discussion of strategy with fellow leadership.';
 
     return (
       <div className="Skills">

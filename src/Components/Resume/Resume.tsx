@@ -4,7 +4,7 @@
 
 import React from 'react';
 import Education from './Sections/Education';
-import Layout from '../../Layout';
+import Layout from '../Layout/ConnectLayout';
 import Skills from './Sections/Skills';
 import {Link} from 'react-router-dom'
 import Work from './Sections/Work';

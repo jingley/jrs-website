@@ -16,10 +16,12 @@ const SnellingClerical = () => {
      * Bullets for description list
      */
     const bullets = {
-        a: 'Continued responsibilities from entry level position (Student Food Service Worker I) while adding additional tasks: ' +
-            'maintaining employee records, running the cash register and handling sensitive information.',
-        b: 'I also act as an extension of management from time to time when they\'re busy: providing direction for ' +
-            'student work stations and training new students.'
+        a: 'Continued responsibilities from Student Employee position, ' +
+            'while adding additional tasks: maintaining employee records, ' +
+            'running the cash register and handling sensitive information.',
+        b: 'I also acted as an extension of management from time to time, ' +
+            'providing direction for student work stations and training ' +
+            'new students.'
     };
 
     /**

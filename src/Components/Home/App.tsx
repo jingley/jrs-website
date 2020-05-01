@@ -4,7 +4,7 @@
 
 import React from 'react';
 import './css/App.css';
-import Layout from '../../Layout';
+import Layout from '../Layout/ConnectLayout';
 
 /**
  * App component. this is the homepage component

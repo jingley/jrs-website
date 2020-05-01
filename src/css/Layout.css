@@ -24,10 +24,10 @@
 
 .Layout-aside {
     position: fixed;
-    margin: 1vh;
-    bottom: 1vh;
+    margin: 6vmin .5vmin;
+    bottom: 0;
     left: 0;
-    max-width: 15%;
+    max-width: 10%;
 }
 
 .Layout-header {
@@ -182,12 +182,6 @@
 
     .Layout-body {
         margin-bottom: 2vh;
-    }
-
-    .Layout-aside {
-        position: inherit;
-        justify-self: center;
-        align-self: center;
     }
 
 }

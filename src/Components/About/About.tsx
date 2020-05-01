@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../../Layout';
+import Layout from '../Layout/ConnectLayout';
 import './css/About.css'
 import ImageGallery from 'react-image-gallery';
 
@@ -134,7 +134,7 @@ const About = () => {
                                     backgrounds from all parts of the world.</p>
                             </div>
                             <div className="Images">
-                                <ImageGallery items={frisbeeImages} showThumbnails={false}/>
+                                <ImageGallery items={frisbeeImages} showThumbnails={false} useBrowserFullscreen={false}/>
                             </div>
                         </div>
                     </section>
@@ -157,7 +157,7 @@ const About = () => {
                                     sometime soon  Oh, and don't get me started on how insanely good Korean food is!</p>
                             </div>
                             <div className="Images">
-                                <ImageGallery items={koreaImages} showThumbnails={false}/>
+                                <ImageGallery items={koreaImages} showThumbnails={false} useBrowserFullscreen={false}/>
                             </div>
                         </div>
                     </section>

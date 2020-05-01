@@ -1,7 +1,7 @@
 .Resume-bullets {
     display: inherit;
     text-align: justify;
-    width: 60%;
+    width: 70%;
     margin: 0 auto 0 auto;
 }
 
@@ -39,14 +39,14 @@
     display: inherit;
     margin: 0 auto 10px auto;
     text-align: center;
-    width: 60%;
+    width: 70%;
     font-size: 2.5vh;
 }
 
 .Resume-title {
     margin: 0 auto 10px auto;
     justify-content: center;
-    width: 60%;
+    width: 70%;
     text-align: center;
     display: flex;
     font-size: 3vh;
@@ -59,7 +59,7 @@
 
 .Coding-skills {
     display: flex;
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-evenly;

@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/FontTools/ConnectFontTools.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/FontTools/actions/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/FontTools/reducers/reducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Layout/ConnectLayout.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configureStore.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/files/resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/files/resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/FontTools/FontTools.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FontTools/FontTools.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/FontTools/css/FontTools.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FontTools/css/FontTools.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Sabre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Sabre.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/SnellingClerical.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/SnellingClerical.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/SnellingStudent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/SnellingStudent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +34,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="HTML File" />
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -54,17 +70,17 @@
     <property name="ts.external.directory.path" value="C:\Users\jingl\Documents\MyProjects\jrs-website\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\public\files" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\Layout" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\About\css" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\public\files" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Resume\Sections" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\About\css" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\css" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Pages\Home\css" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Pages\Home" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.Sabre tests">
@@ -182,6 +198,7 @@
       <workItem from="1588173533715" duration="20543000" />
       <workItem from="1588254009616" duration="19932000" />
       <workItem from="1588275598793" duration="1859000" />
+      <workItem from="1588342540736" duration="11581000" />
     </task>
     <servers />
   </component>
@@ -245,10 +262,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588173258433" />
-    <state x="762" y="0" width="781" height="830" key="dock-window-1" timestamp="1588287635070">
+    <state x="-6" y="0" width="781" height="830" key="dock-window-1" timestamp="1588351679719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="762" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1588287635070" />
+    <state x="-6" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1588351679719" />
     <state x="209" y="66" key="new project wizard" timestamp="1585495704876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
