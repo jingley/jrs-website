@@ -17,7 +17,6 @@ export class Layout extends React.Component<any,any> {
         const layout = document.getElementById('Layout-fonts');
         if (layout !== null) {
             layout.style.fontSize = fontSize;
-            console.log('didMount : ' + fontSize);
         }
     }
 
@@ -26,7 +25,6 @@ export class Layout extends React.Component<any,any> {
         const layout = document.getElementById('Layout-fonts');
         if (layout !== null) {
             layout.style.fontSize = fontSize;
-            console.log('didMount : ' + fontSize);
         }
     }
 
