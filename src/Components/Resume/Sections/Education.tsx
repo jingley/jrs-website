@@ -36,8 +36,8 @@ const Education = () => {
     return (
         <div className="Education">
             <div className="School-information">
-                <p>{degree} | {university} </p>
-                <p>{status}, {year} {college}</p>
+                <h3>{degree} | {university} </h3>
+                <h3>{status}, {year} {college}</h3>
             </div>
             <div className="Resume-bullets">
                 <ul>

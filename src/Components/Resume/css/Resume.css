@@ -1,6 +1,6 @@
 .Resume-bullets {
     display: inherit;
-    text-align: justify;
+    text-align: left;
     width: 70%;
     margin: 0 auto 0 auto;
 }
@@ -20,7 +20,7 @@
 
 .Next-button a {
     margin: 8px;
-    color: black
+    color: black;
 }
 
 .Resume-img {
@@ -32,7 +32,7 @@
 }
 
 .Resume-img img {
-    max-width: 25%;
+    max-width: 35%;
 }
 
 .School-information {
@@ -40,7 +40,10 @@
     margin: 0 auto 10px auto;
     text-align: center;
     width: 70%;
-    font-size: 2.5vh;
+}
+
+.School-information h3 {
+    font-weight: normal;
 }
 
 .Resume-title {
@@ -49,7 +52,6 @@
     width: 70%;
     text-align: center;
     display: flex;
-    font-size: 3vh;
 }
 
 .Coding-skills li {
@@ -76,8 +78,12 @@ ul {
     width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .Resume-bullets {
         width: 80%;
+    }
+
+    .Resume-img img {
+        max-width: 50vmin;
     }
 }

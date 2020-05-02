@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../../css/Layout.css';
+import './css/Layout.css';
 import FontTools from '../FontTools/ConnectFontTools';
 
 export class Layout extends React.Component<any,any> {
