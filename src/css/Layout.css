@@ -125,6 +125,10 @@
     display: block;
 }
 
+.dropdown:hover .Layout-aside{
+    visibility: hidden;
+}
+
 .Standout-text {
     font-weight: bolder;
 }
@@ -157,10 +161,25 @@
     .topnav a:not(:first-child), .dropdown .dropbtn {
         display: none;
     }
-    .topnav a.icon {
+    .topnav button.icon {
         float: right;
+        text-align: left;
+        cursor: pointer;
+        text-decoration: none;
+        border: none;
+        padding: 2vmin 4vmin;
         margin-right: 2vmin;
+        background-color: inherit;
         display: block;
+    }
+
+    .topnav button.icon:focus {
+        outline: 0;
+    }
+
+    .topnav button.icon:hover {
+        background-color: #555;
+        color: white;
     }
 
     .Layout-body {
@@ -171,7 +190,7 @@
 
 @media screen and (max-width: 800px) {
     .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
+    .topnav.responsive button.icon {
         position: absolute;
         right: 0;
         top: 0;

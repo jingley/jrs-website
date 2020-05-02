@@ -71,9 +71,9 @@ export class Layout extends React.Component<any,any> {
                                 </div>
                             </div>
                             <Link id="about" to="/about">About Me</Link>
-                            <a className="icon" onClick={() => this.responsiveMenu()}>
+                            <button className="icon" onClick={() => this.responsiveMenu()}>
                                 &#9776;
-                            </a>
+                            </button>
                         </div>
                     </nav>
                 </header>
