@@ -28,22 +28,12 @@ export class Layout extends React.Component<any,any> {
         }
     }
 
-
-    menu = () => {
-        const dropDown = document.getElementById("drop");
-        const about = document.getElementById("about");
-        let menu;
-
-        if(dropDown !== null && about != null ) {
-            if((menu = document.getElementById('menuOn')) !== null) {
-                dropDown.style.display = "inherit";
-                about.style.display = "inherit";
-                menu.id = 'menuOff';
-            } else if ((menu = document.getElementById('menuOff')) !== null) {
-                dropDown.style.display = "none";
-                about.style.display = "none";
-                menu.id = 'menuOn';
-            }
+    responsiveMenu = () => {
+        const nav = document.getElementById('myTopnav');
+        if (nav !== null && nav.className === 'topnav') {
+            nav.className += ' responsive';
+        } else if (nav !== null) {
+            nav.className = 'topnav';
         }
     }
 
@@ -52,43 +42,38 @@ export class Layout extends React.Component<any,any> {
             <div className="Layout">
                 <header className="Layout-header">
                     <nav>
-                        <div className="Nav-right">
+                        <div className="topnav" id="myTopnav">
                             <Link to="/">Home</Link>
-                            <div id="drop" className="Drop-down">
-                                <Link id="Drop-down-button" to={{
-                                    pathname: '/resume',
-                                    state: {
-                                        section: 'education'
-                                    }
-                                }}>Resume</Link>
-                                <span className="Drop-down-resume">
-                            <Link to={{
-                                pathname: '/resume',
-                                state: {
-                                    section: 'education'
-                                }
-                            }}>Education</Link>
-                            <Link to={{
-                                pathname: '/resume',
-                                state: {
-                                    section: 'skills'
-                                }
-                            }}>Skills & Abilities</Link>
-                            <Link to={{
-                                pathname: '/resume',
-                                state: {
-                                    section: 'work'
-                                }
-                            }}>Work Experience</Link>
-                            <Link to='/files/resume.pdf' target='_blank' download>
-                                Download PDF
-                            </Link>
-                        </span>
+                            <div className="dropdown">
+                                <button className="dropbtn">Resume</button>
+                                <div className="dropdown-content">
+                                    <Link to={{
+                                        pathname: '/resume',
+                                        state: {
+                                            section: 'education'
+                                        }
+                                    }}>Education</Link>
+                                    <Link to={{
+                                        pathname: '/resume',
+                                        state: {
+                                            section: 'skills'
+                                        }
+                                    }}>Skills & Abilities</Link>
+                                    <Link to={{
+                                        pathname: '/resume',
+                                        state: {
+                                            section: 'work'
+                                        }
+                                    }}>Work Experience</Link>
+                                    <Link to='/files/resume.pdf' target='_blank' download>
+                                        Download PDF
+                                    </Link>
+                                </div>
                             </div>
                             <Link id="about" to="/about">About Me</Link>
-                            <p className="icon" id="menuOn" onClick={this.menu}>
-                                <i className="fa fa-bars"></i>
-                            </p>
+                            <a className="icon" onClick={() => this.responsiveMenu()}>
+                                &#9776;
+                            </a>
                         </div>
                     </nav>
                 </header>

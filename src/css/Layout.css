@@ -31,7 +31,6 @@
 }
 
 .Layout-header {
-    top: 0;
     background-color: #8DAA9D;
     width: 100vw; /* Full width */
 }
@@ -49,75 +48,85 @@
     color: #61dafb;
 }
 
-.Nav-right {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: inherit;
     overflow: hidden;
 }
 
-.Nav-right p.icon {
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
     display: none;
 }
 
-.Nav-right a {
-    padding: 1em;
-    color: black;
-    text-shadow: 1px 1px lightgray;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-.Nav-right a:hover, .Drop-down:hover #Drop-down-button{
-    background-color: #FBF5F3;
-}
-
-.Standout-text {
-    font-weight: bolder;
-}
-
-.Drop-down {
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
     float: left;
     overflow: hidden;
 }
 
-.Drop-down #Drop-down-button {
-    font-size: inherit;
-    display: inherit;
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+    font-size: 17px;
     border: none;
     outline: none;
+    color: black;
+    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
 }
 
-.Drop-down-resume {
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
-.Drop-down-resume a {
-    background-color: #FBF5F3;
+/* Style the links inside the dropdown */
+.dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    display: inline-flex;
+    display: block;
     text-align: left;
 }
 
-.Drop-down-resume a:hover {
-    background-color: #D3D3D3;
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
 }
 
-.Drop-down:hover .Drop-down-resume {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Standout-text {
+    font-weight: bolder;
 }
 
 .Section-title {
@@ -145,46 +154,39 @@
         font-size: 2.5vh;
     }
 
-    .Nav-right {
-        overflow: hidden;
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
     }
-
-    .Nav-right p.icon {
-        background-color: #8DAA9D;
+    .topnav a.icon {
+        float: right;
         display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .Nav-right p.icon i {
-        margin: 2.3vh;
-    }
-
-    .Nav-right p.icon:active {
-        background-color: lightsteelblue;
-    }
-
-    .Drop-down:hover .Drop-down-resume {
-        display: none;
-    }
-
-    #drop {
-        display: none;
-    }
-
-    #about {
-        display: none;
-    }
-
-    .Nav-right a:active, .Drop-down:active #Drop-down-button {
-        background-color: lightsteelblue;
     }
 
     .Layout-body {
         margin-bottom: 2vh;
     }
 
+}
+
+@media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
 }
 
 
