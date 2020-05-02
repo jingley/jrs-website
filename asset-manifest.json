@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jrs-website/static/css/main.530d8358.chunk.css",
+    "main.css": "/jrs-website/static/css/main.65560c72.chunk.css",
     "main.js": "/jrs-website/static/js/main.5fb033a1.chunk.js",
     "main.js.map": "/jrs-website/static/js/main.5fb033a1.chunk.js.map",
     "runtime-main.js": "/jrs-website/static/js/runtime-main.3cbce1a8.js",
@@ -9,10 +9,10 @@
     "static/js/2.796adae1.chunk.js": "/jrs-website/static/js/2.796adae1.chunk.js",
     "static/js/2.796adae1.chunk.js.map": "/jrs-website/static/js/2.796adae1.chunk.js.map",
     "index.html": "/jrs-website/index.html",
-    "precache-manifest.05c58a07d8c677a1ad2d604c25f4c873.js": "/jrs-website/precache-manifest.05c58a07d8c677a1ad2d604c25f4c873.js",
+    "precache-manifest.c95c4aee1a4bcfb3ab47f5ffd051ca1a.js": "/jrs-website/precache-manifest.c95c4aee1a4bcfb3ab47f5ffd051ca1a.js",
     "service-worker.js": "/jrs-website/service-worker.js",
     "static/css/2.40a775a0.chunk.css.map": "/jrs-website/static/css/2.40a775a0.chunk.css.map",
-    "static/css/main.530d8358.chunk.css.map": "/jrs-website/static/css/main.530d8358.chunk.css.map",
+    "static/css/main.65560c72.chunk.css.map": "/jrs-website/static/css/main.65560c72.chunk.css.map",
     "static/js/2.796adae1.chunk.js.LICENSE.txt": "/jrs-website/static/js/2.796adae1.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/jrs-website/static/media/1.f19b6e57.jpg",
     "static/media/10.jpg": "/jrs-website/static/media/10.2c2bbc56.jpg",
@@ -44,7 +44,7 @@
     "static/js/runtime-main.3cbce1a8.js",
     "static/css/2.40a775a0.chunk.css",
     "static/js/2.796adae1.chunk.js",
-    "static/css/main.530d8358.chunk.css",
+    "static/css/main.65560c72.chunk.css",
     "static/js/main.5fb033a1.chunk.js"
   ]
 }
