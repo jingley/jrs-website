@@ -159,6 +159,7 @@
     }
     .topnav a.icon {
         float: right;
+        margin-right: 2vmin;
         display: block;
     }
 
