@@ -65,7 +65,7 @@ export class Layout extends React.Component<any,any> {
                                             section: 'work'
                                         }
                                     }}>Work Experience</Link>
-                                    <Link to='/files/resume.pdf' target='_blank' download>
+                                    <Link to='/files/jon_ross_ingley_resume.pdf' target='_blank' download>
                                         Download PDF
                                     </Link>
                                 </div>
