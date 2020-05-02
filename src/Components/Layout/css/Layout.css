@@ -135,7 +135,7 @@
 
 .Section-title {
     display: flex;
-    min-height: calc(150px + 1vh);
+    min-height: calc(150px + 7vh);
     height: 100%;
     width: 100vw;
     background-color: #8DAA9D;

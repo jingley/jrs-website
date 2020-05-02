@@ -28,7 +28,6 @@
   align-items: center;
   width: 100%;
   background-color: #8DAA9D;
-  max-height: 40vmin;
   padding: 8vmin;
 }
 
@@ -39,7 +38,7 @@
   align-content: space-evenly;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 7vmin;
+  padding: 3vmin;
 }
 
 .Socials {

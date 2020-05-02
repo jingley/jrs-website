@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/css/Resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/css/Layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/css/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/css/Layout.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +180,7 @@
       <workItem from="1588275598793" duration="1859000" />
       <workItem from="1588342540736" duration="17503000" />
       <workItem from="1588362644165" duration="1767000" />
-      <workItem from="1588428837589" duration="1971000" />
+      <workItem from="1588428837589" duration="2804000" />
     </task>
     <servers />
   </component>
