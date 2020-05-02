@@ -167,8 +167,8 @@
         cursor: pointer;
         text-decoration: none;
         border: none;
-        padding: 2vmin 4vmin;
-        margin-right: 2vmin;
+        padding: 2vh 4vh;
+        margin-right: 2vh;
         background-color: inherit;
         display: block;
     }
