@@ -57,7 +57,7 @@ const Layout = (props) => {
                 {props.children }
             </div>
             <aside className="Layout-aside">
-                <FontTools/>
+                <FontTools fontControllingClass="Layout"/>
             </aside>
             <div className="Fill-Space"/>
             <footer className="Layout-footer">

@@ -7,6 +7,7 @@ import Education from './Sections/Education';
 import Resume from './Resume';
 import { shallow } from 'enzyme';
 import Skills from './Sections/Skills';
+import Work from './Sections/Work';
 
 
 describe('testing resume component', () => {
@@ -19,4 +20,8 @@ describe('testing resume component', () => {
     it('renders skills component', () => {
         expect(wrapper.find(Skills).length).toEqual(1);
     });
+
+    it('renders Work component', () => {
+        expect(wrapper.find(Work).length).toEqual(1);
+    })
 });

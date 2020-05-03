@@ -21,7 +21,7 @@ const Education = () => {
         year: 'May 2020',
         degree: 'Bachelor of Science',
         college: 'Franklin College of Arts and Sciences',
-        university: 'The Univerity of Georgia',
+        university: 'The University of Georgia',
         gpa: '3.14 out of 4.0',
         relatedCourseWork: `Related Coursework: <span class="Standout-text">Software Engineering</span>, System Programming, <span class="Standout-text">Web Programming</span>,\n` +
             `Software Development, Data Structures, Database Management, Mobile Software\n` +

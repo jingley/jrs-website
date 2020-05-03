@@ -5,16 +5,11 @@
 import React from 'react';
 import {render} from '@testing-library/react';
 import Education from './Education';
-
-test('renders education h1', () => {
-    const { getByText } = render(<Education />);
-    const h2 = getByText(/Education/i);
-    expect(h2).toBeInTheDocument();
-});
+import {shallow} from 'enzyme';
 
 test('renders Education-title', () => {
     const { getByText } = render(<Education />);
-    const p = getByText(/Bachelor/i);
+    const p = getByText(/University/i);
     expect(p).toBeInTheDocument();
 });
 
@@ -23,3 +18,8 @@ test('renders education list', () => {
     const list = getByText(/Related Coursework/i);
     expect(list).toBeInTheDocument();
 });
+
+test('render image', () => {
+    const wrapper = shallow(<Education/>);
+    expect(wrapper.find('img').exists()).toEqual(true);
+})
