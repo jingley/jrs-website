@@ -149,11 +149,11 @@
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="Jest.All Tests" />
       <item itemvalue="Jest.Sabre tests" />
-      <item itemvalue="npm.npm start" />
       <item itemvalue="Jest.FontTools.test.tsx" />
       <item itemvalue="Jest.Education.test.tsx" />
       <item itemvalue="Jest.Work.test.tsx" />
       <item itemvalue="Jest.Layout.test.tsx" />
+      <item itemvalue="npm.npm start" />
     </list>
     <recent_temporary>
       <list>
