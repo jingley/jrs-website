@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About/css/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/css/About.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FontTools/ConnectFontTools.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FontTools/ConnectFontTools.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FontTools/FontTools.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FontTools/FontTools.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/ConnectLayout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/ConnectLayout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +184,9 @@
       <workItem from="1588342540736" duration="17503000" />
       <workItem from="1588362644165" duration="1767000" />
       <workItem from="1588428837589" duration="3408000" />
+      <workItem from="1588519658467" duration="116000" />
+      <workItem from="1588519942470" duration="597000" />
+      <workItem from="1588538703411" duration="2133000" />
     </task>
     <servers />
   </component>
@@ -202,10 +210,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1585518068423" />
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588173319071">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588519755169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1588173319071" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1588519755169" />
     <state x="883" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588182763479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,9 +262,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588380639660" />
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585590830770">
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588539978886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585590830770" />
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588539978886" />
   </component>
 </project>

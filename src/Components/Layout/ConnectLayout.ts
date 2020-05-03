@@ -1,8 +1,7 @@
-import {Layout} from './Layout';
+import Layout from './Layout';
 import {connect} from 'react-redux';
 
 const mapStateToProps = (state, ownProps) => ({
-    fontSize: state.fontSizes[state.currentFontIndex],
     ...ownProps
 });
 

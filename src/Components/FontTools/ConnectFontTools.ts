@@ -3,7 +3,7 @@ import {fontUp, fontDown} from './actions/actions';
 import {connect} from 'react-redux';
 
 const mapStateToProps = state => ({
-    fontSizes: state.fontToolsReducer
+    fontSize: state.fontSizes[state.currentFontIndex],
 });
 
 
