@@ -6,7 +6,7 @@ describe('layout tests', () => {
     const wrapper = shallow(<Layout/>);
     it('renders navbar', () => {
        expect(wrapper.find('.topnav').length).toBe(1);
-   });
+    });
     it('renders footer', () => {
         expect(wrapper.find('.Layout-footer').length).toBe(1);
     });
