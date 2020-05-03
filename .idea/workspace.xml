@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="" />
+    <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Layout/Layout.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About/About.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FontTools/FontTools.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FontTools/FontTools.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Resume.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Work.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Work.test.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +69,7 @@
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\About\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Education.test.tsx">
+  <component name="RunManager" selected="Jest.Layout.test.tsx">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -67,16 +77,6 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="ALL" />
-      <method v="2" />
-    </configuration>
-    <configuration name="App.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/App.test.tsx" />
       <method v="2" />
     </configuration>
     <configuration name="Education.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -99,6 +99,16 @@
       <test-file value="$PROJECT_DIR$/src/Components/FontTools/FontTools.test.tsx" />
       <method v="2" />
     </configuration>
+    <configuration name="Layout.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/Components/Layout/Layout.test.tsx" />
+      <method v="2" />
+    </configuration>
     <configuration name="Sabre tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -112,14 +122,14 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Sabre.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Work.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/Resume/Sections/Jobs/Sabre.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/Components/Resume/Sections/Work.test.tsx" />
       <method v="2" />
     </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -138,20 +148,20 @@
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.App.test.tsx" />
-      <item itemvalue="Jest.Sabre.test.tsx" />
       <item itemvalue="Jest.Sabre tests" />
       <item itemvalue="npm.npm start" />
       <item itemvalue="Jest.FontTools.test.tsx" />
       <item itemvalue="Jest.Education.test.tsx" />
+      <item itemvalue="Jest.Work.test.tsx" />
+      <item itemvalue="Jest.Layout.test.tsx" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Education.test.tsx" />
+        <item itemvalue="Jest.Layout.test.tsx" />
         <item itemvalue="Jest.FontTools.test.tsx" />
+        <item itemvalue="Jest.Work.test.tsx" />
+        <item itemvalue="Jest.Education.test.tsx" />
         <item itemvalue="Jest.Sabre tests" />
-        <item itemvalue="Jest.Sabre.test.tsx" />
-        <item itemvalue="Jest.App.test.tsx" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +189,7 @@
       <workItem from="1588428837589" duration="3408000" />
       <workItem from="1588519658467" duration="116000" />
       <workItem from="1588519942470" duration="597000" />
-      <workItem from="1588538703411" duration="4534000" />
+      <workItem from="1588538703411" duration="6745000" />
     </task>
     <servers />
   </component>
@@ -215,22 +225,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="160" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585614605331" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588543231397">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588545468006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588543231397" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588543231397">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588545468006" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588545468005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588543231397" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588543231397">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588545468005" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588545468004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588543231397" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588543231397">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588545468004" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588545468005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588543231397" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588545468005" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1588544402823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588544402823" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1588544402823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588544402823" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1588544402823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588544402823" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1588544402823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588544402823" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1588544402824">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588544402824" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1588544402824">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1588544402824" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1588544402823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1588544402823" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1588544402824">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1588544402824" />
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom" timestamp="1588544402825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588544402825" />
+    <state width="1493" height="261" key="GridCell.Tab.3.center" timestamp="1588544402824">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1588544402824" />
+    <state width="1493" height="261" key="GridCell.Tab.3.left" timestamp="1588544402824">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1588544402824" />
+    <state width="1493" height="261" key="GridCell.Tab.3.right" timestamp="1588544402825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1588544402825" />
     <state x="0" y="158" key="IDE.errors.dialog" timestamp="1585590797551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

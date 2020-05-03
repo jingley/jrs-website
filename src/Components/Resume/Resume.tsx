@@ -13,8 +13,10 @@ import './css/Resume.css'
 const Resume = (props) => {
 
     let section = 'default';
-    if(props.location.state !== undefined) {
-        section = props.location.state.section;
+    if(props.location !== undefined) {
+        if (props.location.state !== undefined) {
+            section = props.location.state.section;
+        }
     }
 
     switch (section) {

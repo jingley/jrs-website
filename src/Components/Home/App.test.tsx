@@ -6,7 +6,12 @@ import React from 'react';
 import App from './App';
 import { shallow } from 'enzyme';
 
-it('renders  component', () => {
+describe('app tests', () => {
   const wrapper = shallow( <App />);
-  expect(wrapper.find('p').length).toEqual(1);
+  it('renders img', () => {
+    expect(wrapper.find('.App-logo').length).toEqual(1);
+  });
+  it('renders socials', () => {
+    expect(wrapper.find('.Socials').length).toEqual(1);
+  })
 });

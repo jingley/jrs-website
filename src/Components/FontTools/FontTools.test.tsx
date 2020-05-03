@@ -1,11 +1,13 @@
-import {FontTools} from './FontTools';
+import FontTools from './ConnectFontTools';
 import React from 'react';
 import { shallow } from 'enzyme';
 import {FONT_UP, FONT_DOWN} from './actions/actions';
 import {fontUp, fontDown} from './actions/actions';
+import {Provider} from 'react-redux';
+import configureStore from '../../configureStore'
 
 describe('FontTools testing', () => {
-    const wrapper = shallow(<FontTools fontControllingClass="Test"/>);
+    const wrapper = shallow(<Provider store={configureStore()}><FontTools/></Provider>);
     it('should have up button', () => {
         expect(wrapper.find('#up').exists()).toEqual(true);
     });
@@ -23,5 +25,8 @@ describe('FontTools testing', () => {
             type: FONT_DOWN
         };
         expect(fontDown()).toEqual(expectedAction);
+    });
+    it('receives fontSize from redux', () => {
+       expect(wrapper.prop('fontSize').exists()).toEqual(true);
     });
 });

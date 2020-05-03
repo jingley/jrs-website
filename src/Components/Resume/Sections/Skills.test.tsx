@@ -13,9 +13,6 @@ describe('testing skills component for lists', ()=> {
     it('find coding language list', () => {
         expect(wrapper.find('#coding').length).toEqual(1);
     });
-    it('find technologies list', () => {
-        expect(wrapper.find('#tech').length).toEqual(1);
-    })
     it('find communication bullet', () => {
         expect(wrapper.find('#communication').length).toEqual(1);
     })
