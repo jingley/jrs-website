@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/FontTools/FontTools.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FontTools/FontTools.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FontTools/FontTools.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/css/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/css/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Resume.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +179,7 @@
       <workItem from="1588428837589" duration="3408000" />
       <workItem from="1588519658467" duration="116000" />
       <workItem from="1588519942470" duration="597000" />
-      <workItem from="1588538703411" duration="4488000" />
+      <workItem from="1588538703411" duration="4534000" />
     </task>
     <servers />
   </component>
@@ -224,22 +215,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="160" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585614605331" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588543216350">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588543231397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588543216350" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588543216350">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588543231397" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588543231397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588543216350" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588543216350">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588543231397" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588543231397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588543216350" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588543216350">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588543231397" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588543231397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588543216350" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588543231397" />
     <state x="0" y="158" key="IDE.errors.dialog" timestamp="1585590797551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
