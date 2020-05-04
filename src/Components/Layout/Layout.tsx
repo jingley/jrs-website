@@ -1,3 +1,7 @@
+/**
+ * @author Jon Ross Ingley <jingley22@gmail.com>
+ */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './css/Layout.css';

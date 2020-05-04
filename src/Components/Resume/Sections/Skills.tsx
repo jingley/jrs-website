@@ -1,5 +1,7 @@
 /**
  * @author Jon Ross Ingley <jingley22@gmail.com>
+ *
+ * This section is the skills and technologies section of my resume.
  */
 
 import React from 'react';

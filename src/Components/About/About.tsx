@@ -1,3 +1,9 @@
+/**
+ * @author Jon Ross Ingley
+ *
+ * This component is a blog type page that has some image galleries to go with some paragraphs.
+ */
+
 import React from 'react';
 import Layout from '../Layout/ConnectLayout';
 import './css/About.css'

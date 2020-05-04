@@ -1,8 +1,17 @@
+/**
+ * @author Jon Ross Ingley <jingley22@gmail.com
+ *
+ * Customized configure store with logging modifications
+ */
 import {createStore} from 'redux';
 import fontToolsReducer from './Components/FontTools/reducers/reducers';
 
+/**
+ * Logs to console for every dispatch
+ */
 const addLoggingToDispatch = (store) => {
     const rawDispatch = store.dispatch;
+    //use in case group is not supported
     if(!console.group) {
         return rawDispatch;
     }
@@ -17,9 +26,13 @@ const addLoggingToDispatch = (store) => {
     }
 }
 
+/**
+ * Custom configure store
+ */
 const configureStore = () => {
     const store = createStore(fontToolsReducer);
 
+    //only logging like this for development
     if(process.env.NODE_ENV !== 'production') {
         store.dispatch = addLoggingToDispatch(store);
     }

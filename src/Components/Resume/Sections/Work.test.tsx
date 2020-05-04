@@ -1,3 +1,7 @@
+/**
+ * @author Jon Ross Ingley
+ */
+
 import React from 'react';
 import {shallow} from 'enzyme';
 import Work from './Work';

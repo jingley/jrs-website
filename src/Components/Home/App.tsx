@@ -1,5 +1,7 @@
 /**
  * @author Jon Ross Ingley <jingley22@gmail.com>
+ *
+ * this is the homepage of the app.
  */
 
 import React from 'react';

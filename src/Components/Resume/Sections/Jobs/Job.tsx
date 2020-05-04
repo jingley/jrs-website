@@ -1,5 +1,7 @@
 /**
  * @author Jon Ross Ingley <jingley22@gmail.com>
+ *
+ * This is the base Job component for my individual jobs.
  */
 
 import React from 'react';

@@ -1,5 +1,7 @@
 /**
  * @author Jon Ross Ingley <jingley22@gmail.com>
+ *
+ * This is the work experience section of my resume.
  */
 
 import React from 'react';
