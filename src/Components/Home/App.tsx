@@ -32,7 +32,7 @@ const App = () => {
                 </p>
                 <div className="Socials">
                     <div className="Row-Socials">
-                        <a id="github" href="https://github.com/jingley"><img src={require('../../imgs/GitHub-Mark-32px.png')} alt="Git Hub Logo"/></a>
+                        <a id="github" href="https://github.com/jingley" rel="noopener noreferrer" target="_blank"><img src={require('../../imgs/GitHub-Mark-32px.png')} alt="Git Hub Logo"/></a>
                         <a id="linked-in" href="https://linkedin.com/in/jon-ross-ingley-810989170" rel="noopener noreferrer" target="_blank"><img src={require('../../imgs/LI-In-Bug-BW.png')} alt="LinkedIn Logo"/></a>
                     </div>
                     <div className="Row-Socials">
