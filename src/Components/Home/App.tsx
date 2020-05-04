@@ -31,8 +31,13 @@ const App = () => {
                     Please take a look around the site and contact me with the links below.
                 </p>
                 <div className="Socials">
-                    <a id="linked-in" href="https://www.linkedin.com/in/jon-ross-ingley-810989170" rel="noopener noreferrer" target="_blank"><img src={require('../../imgs/LI-In-Bug-BW.png')} alt="LinkedIn Logo"/></a>
-                    <a id="email" href="mailto:jingley22@gmail.com">@</a>
+                    <div className="Row-Socials">
+                        <a id="github" href="https://github.com/jingley"><img src={require('../../imgs/GitHub-Mark-32px.png')} alt="Git Hub Logo"/></a>
+                        <a id="linked-in" href="https://linkedin.com/in/jon-ross-ingley-810989170" rel="noopener noreferrer" target="_blank"><img src={require('../../imgs/LI-In-Bug-BW.png')} alt="LinkedIn Logo"/></a>
+                    </div>
+                    <div className="Row-Socials">
+                        <a id="email" href="mailto:jingley22@gmail.com">@</a>
+                    </div>
                 </div>
             </div>
         </div>

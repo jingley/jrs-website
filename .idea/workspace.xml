@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/imgs/GitHub-Mark-32px.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About/About.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FontTools/ConnectFontTools.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FontTools/ConnectFontTools.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FontTools/FontTools.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FontTools/FontTools.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FontTools/FontTools.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FontTools/FontTools.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Home/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/ConnectLayout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/ConnectLayout.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Layout.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Layout.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Job.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Jobs/Job.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Work.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Work.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Work.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configureStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/configureStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/css/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,17 +51,17 @@
     <property name="ts.external.directory.path" value="C:\Users\jingl\Documents\MyProjects\jrs-website\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\public\files" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Resume\Sections" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\Layout\css" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\public\files" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\Layout" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\About\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\public\files" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Resume\Sections" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.FontTools.test.tsx">
@@ -233,6 +220,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="160" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585614605331" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588553412546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588553412546" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588552766149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -51,6 +51,11 @@
   align-items: center;
 }
 
+.Row-Socials {
+  display: flex;
+  flex-direction: row;
+}
+
 .Socials img {
   height: 4vmin;
   display: flex;
