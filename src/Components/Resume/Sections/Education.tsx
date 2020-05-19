@@ -19,12 +19,11 @@ const Education = () => {
      */
     const props = {
         major: 'Computer Science',
-        status: 'Graduating',
         year: 'May 2020',
         degree: 'Bachelor of Science',
         college: 'Franklin College of Arts and Sciences',
         university: 'The University of Georgia',
-        gpa: '3.14 out of 4.0',
+        gpa: '3.15 out of 4.0',
         relatedCourseWork: `Related Coursework: <span class="Standout-text">Software Engineering</span>, System Programming, <span class="Standout-text">Web Programming</span>,\n` +
             `Software Development, Data Structures, Database Management, Mobile Software\n` +
             `Development, Computer Networks`
@@ -33,13 +32,13 @@ const Education = () => {
     /**
      * destructing props
      */
-    const {major, status, year, degree, college, university, gpa, relatedCourseWork} = props;
+    const {major, year, degree, college, university, gpa, relatedCourseWork} = props;
 
     return (
         <div className="Education">
             <div className="School-information">
                 <h3>{degree} | {university} </h3>
-                <h3>{status}, {year} {college}</h3>
+                <h3>{year} {college}</h3>
             </div>
             <div className="Resume-bullets">
                 <ul>

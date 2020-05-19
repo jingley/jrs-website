@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0388b89-4b9d-454a-a511-4d8baeeaeb8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/Home/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/files/jon_ross_ingley_resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/files/jon-ross-ingley-resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Sections/Education.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +51,17 @@
     <property name="ts.external.directory.path" value="C:\Users\jingl\Documents\MyProjects\jrs-website\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\Layout\css" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\public\files" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\Layout" />
-      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\About\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\public\files" />
       <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Resume\Sections" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\public\files" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\Layout\css" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\imgs" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\Layout" />
+      <recent name="C:\Users\jingl\Documents\MyProjects\jrs-website\src\Components\About\css" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.FontTools.test.tsx">
@@ -182,6 +185,7 @@
       <workItem from="1588519658467" duration="116000" />
       <workItem from="1588519942470" duration="597000" />
       <workItem from="1588538703411" duration="6745000" />
+      <workItem from="1589899313662" duration="173000" />
     </task>
     <servers />
   </component>
