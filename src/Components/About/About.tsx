@@ -133,7 +133,7 @@ const About = () => {
                             <div className="Text">
                                 <h1 id="about-title">My History With Ultimate Frisbee</h1>
                                 <p id="about-text">For the last five years, I played Ultimate frisbee year-round for UGA’s collegiate-level team,
-                                    Jojah In my final two years with the team, I also served as a team captain.  Our team competed nationally in
+                                    Jojah. In my final two years with the team, I also served as a team captain.  Our team competed nationally in
                                     three of the last four years, and we won the regional championship three times as well. I have also played for
                                     a summer club frisbee team, Murmur. Frisbee has afforded me opportunities to  play across the country and
                                     around the world. What I love most about the sport is the ability to meet people of varying cultures and
