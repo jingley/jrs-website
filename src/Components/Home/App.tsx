@@ -24,11 +24,12 @@ const App = () => {
                     Hi! I'm Jon Ross Ingley. Welcome to my resume website. It's a simple <span className="Standout-text">React App</span> deployed on github pages.
                 </p>
                 <p>
-                    I am <span className="Standout-text">currently looking</span> for Software Development opportunities-preferably Front-end Web Development with <span className="Standout-text">React</span>. However, I am open to
-                    experiences with new technologies.
+                    I'm a recent college graduate from the University of Georgia with a B.S. in Computer Science. Though I have mostly focused
+                    my attention towards Front-End Web Development, I'm currently open to any Information Technology positions that may expand my
+                    horizon in the field. I'm always excited to take on new experiences and learn new things!
                 </p>
                 <p>
-                    Please take a look around the site and contact me with the links below.
+                    Please take a look around the site, and you may contact me with the links below.
                 </p>
                 <div className="Socials">
                     <div className="Row-Socials">
