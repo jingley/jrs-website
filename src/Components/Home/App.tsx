@@ -29,7 +29,7 @@ const App = () => {
                     horizon in the field. I'm always excited to take on new experiences and learn new things!
                 </p>
                 <p>
-                    Please take a look around the site; you can adjust that font size with the tools on the bottom left of the page if necessary.
+                    Please take a look around the site; you can adjust the font size with the tools on the bottom left of the page if necessary.
                     You may also contact me with the links below.
                 </p>
                 <div className="Socials">
