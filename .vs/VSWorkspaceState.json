@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\jenkins",
-    "\\jenkins\\scripts"
+    "\\jenkins\\scripts",
+    "\\public"
   ],
-  "SelectedNode": "\\jenkins\\scripts\\test.sh",
+  "SelectedNode": "\\jenkins\\scripts\\deliver.sh",
   "PreviewInSolutionExplorer": false
 }
