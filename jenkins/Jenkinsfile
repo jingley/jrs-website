@@ -16,7 +16,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh '/var/jenkins_home/workspace/My Pipeline/jenkins/scripts/test.sh'
+                sh 'ls -l ./jenkins/script/test.sh'
+                sh './jenkins/scripts/test.sh'
             }
         }
         stage('Deliver') {
