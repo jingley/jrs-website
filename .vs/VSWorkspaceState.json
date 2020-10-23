@@ -5,6 +5,6 @@
     "\\jenkins\\scripts",
     "\\public"
   ],
-  "SelectedNode": "\\jenkins\\Jenkinsfile",
+  "SelectedNode": "\\jenkins\\scripts\\kill.sh",
   "PreviewInSolutionExplorer": false
 }
