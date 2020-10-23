@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'la -l test.sh'
+                sh 'ls -l test.sh'
             }
         }
         stage('Test') {
