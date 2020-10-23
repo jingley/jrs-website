@@ -16,8 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'cat ./jenkins/scripts/test.sh'
-                sh 'ls /usr/bin/'
+                sh './jenkins/scripts/test.sh'
                 input message: 'Click proceed when ready'
             }
         }
