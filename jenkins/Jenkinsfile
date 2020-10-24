@@ -34,7 +34,7 @@ pipeline {
         }
         stage('Deliver') {
             when {
-                branch 'develop'
+                branch 'development'
             }
             steps {
                 sh './jenkins/scripts/deliver.sh'
