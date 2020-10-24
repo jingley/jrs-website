@@ -34,12 +34,20 @@ pipeline {
         }
         stage('Deliver') {
             when {
-                branch 'develop'
+                branch 'development'
             }
             steps {
                 sh './jenkins/scripts/deliver.sh'
                 input message: 'Finished using the web site? (Click "Proceed" to continue)'
                 sh './jenkins/scripts/kill.sh'
+            }
+        }
+        stage('Production') {
+            when {
+                branch 'production'
+            }
+            steps {
+                echo 'made it to production stage'
             }
         }
     }
