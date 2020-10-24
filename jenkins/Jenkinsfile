@@ -34,12 +34,12 @@ pipeline {
             steps {
                 checkout([
                     $class: 'GitSCM', 
-                    branches: [[name: '*/${}']], 
+                    branches: [[name: '*/${BRANCH_NAME}']], 
                     userRemoteConfigs: [[url: 'https://github.com/jingley/jrs-website.git']]
                 ])
             }
         }
-        stage('Build for testins') {
+        stage('Build For Testing') {
             steps {
                 sh 'npm install'
             }
