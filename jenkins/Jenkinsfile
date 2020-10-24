@@ -41,7 +41,7 @@ pipeline {
         }
         stage('Build For Testing') {
             steps {
-                sh 'npm config set registry http://registry.npmjs.org/ --global'
+                sh 'npm config set registry https://registry.npmjs.org/ --global'
                 sh 'npm install'
             }
         }
