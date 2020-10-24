@@ -34,7 +34,7 @@ pipeline {
             steps {
                 checkout([
                     $class: 'GitSCM', 
-                    branches: [[name: '*/main']], 
+                    branches: [[name: '*/${BRANCH_NAME}']], 
                     userRemoteConfigs: [[url: 'https://github.com/jingley/jrs-website.git']]
                 ])
             }
