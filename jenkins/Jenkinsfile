@@ -41,6 +41,7 @@ pipeline {
         }
         stage('Build For Testing') {
             steps {
+                echo 'this was trigger by a webhook'
                 sh 'npm config set registry https://registry.npmjs.org/ --global'
                 sh 'npm install'
             }
