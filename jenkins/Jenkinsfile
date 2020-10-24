@@ -42,5 +42,13 @@ pipeline {
                 sh './jenkins/scripts/kill.sh'
             }
         }
+        stage('Production') {
+            when {
+                branch 'production'
+            }
+            steps {
+                echo 'made it to production stage'
+            }
+        }
     }
 }
