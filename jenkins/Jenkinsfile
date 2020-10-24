@@ -17,29 +17,29 @@ pipeline {
         stage('Cleanup Workspace') {
             steps {
                 cleanWs()
-                sh """
+                sh '''
                 echo "Cleaned Up Workspace For Project"
-                """
+                '''
             }
         }
         stage('Code Checkout') {
             steps {
-                echo '${BRANCH_NAME}'
                 checkout([
                     $class: 'GitSCM', 
-                    branches: [[name: '*/main']], 
+                    branches: [[name: 'FETCH_HEAD']], 
+                    extensions: [[$class: 'LocalBranch']],
                     userRemoteConfigs: [[url: 'https://github.com/jingley/jrs-website.git']]
                 ])
             }
         }
         stage('Build For Testing') {
             steps {
-                echo 'npm install'
+                sh 'npm install'
             }
         }
         stage('Run Tests') {
             steps {
-                echo './jenkins/scripts/test.sh'
+                sh './jenkins/scripts/test.sh'
             }
         }
         stage('Production') {
