@@ -22,9 +22,21 @@ pipeline {
             )
     }
     stages {
-        stage('Build') {
+        stage('Cleanup Workspace') {
             steps {
-                sh 'npm install'
+                cleanWs()
+                sh """
+                echo "Cleaned Up Workspace For Project"
+                """
+            }
+        }
+        stage('Code Checkout') {
+            steps {
+                checkout([
+                    $class: 'GitSCM', 
+                    branches: [[name: '*/main']], 
+                    userRemoteConfigs: [[url: 'https://github.com/jingley/jrs-website.git']]
+                ])
             }
         }
         stage('Run Tests') {
