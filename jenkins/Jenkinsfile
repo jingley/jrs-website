@@ -1,8 +1,15 @@
+def dockerArgs
+if(BRANCH_NAME == "development") {
+    dockerArgs = '-p 3000:3000'
+} else {
+    dockerArgs = ''
+}
+
 pipeline {
     agent {
         docker {
             image 'node:current-alpine3.10'
-            args '-p 3000:3000'
+            args dockerArgs
         }
     }
     environment {
@@ -15,23 +22,6 @@ pipeline {
             )
     }
     stages {
-        stage('Cleanup Workspace') {
-            steps {
-                cleanWs()
-                sh '''
-                echo 'Cleaned Up Workspace For Project'
-                '''
-            }
-        }
-        stage('Code Checkout') {
-            steps {
-                checkout([
-                    $class: 'GitSCM', 
-                    branches: [[name: '*/main']], 
-                    userRemoteConfigs: [[url: 'https://github.com/jingley/jrs-website.git']]
-                ])
-            }
-        }
         stage('Build') {
             steps {
                 sh 'npm install'
