@@ -1,15 +1,7 @@
-def dockerArgs
-if(BRANCH_NAME == "development") {
-    dockerArgs = '-p 3000:3000'
-} else {
-    dockerArgs = ''
-}
-
 pipeline {
     agent {
         docker {
             image 'node:current-alpine3.10'
-            args dockerArgs
         }
     }
     environment {
@@ -25,23 +17,23 @@ pipeline {
         stage('Cleanup Workspace') {
             steps {
                 cleanWs()
-                sh """
+                sh '''
                 echo "Cleaned Up Workspace For Project"
-                """
+                '''
             }
         }
         stage('Code Checkout') {
             steps {
                 checkout([
                     $class: 'GitSCM', 
-                    branches: [[name: '*/${BRANCH_NAME}']], 
+                    branches: [[name: 'FETCH_HEAD']], 
+                    extensions: [[$class: 'LocalBranch']],
                     userRemoteConfigs: [[url: 'https://github.com/jingley/jrs-website.git']]
                 ])
             }
         }
         stage('Build For Testing') {
             steps {
-                sh 'npm config set registry https://registry.npmjs.org/ --global'
                 sh 'npm install'
             }
         }
@@ -50,19 +42,9 @@ pipeline {
                 sh './jenkins/scripts/test.sh'
             }
         }
-        stage('Deliver') {
+        stage('Deploy to Gh-Pages') {
             when {
-                branch 'development'
-            }
-            steps {
-                sh './jenkins/scripts/deliver.sh'
-                input message: 'Finished using the web site? (Click "Proceed" to continue)'
-                sh './jenkins/scripts/kill.sh'
-            }
-        }
-        stage('Production') {
-            when {
-                branch 'production'
+                branch 'master'
             }
             steps {
                 echo 'made it to production stage'
