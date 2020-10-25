@@ -42,9 +42,9 @@ pipeline {
                 sh './jenkins/scripts/test.sh'
             }
         }
-        stage('Production') {
+        stage('Deploy to Gh-Pages') {
             when {
-                branch 'production'
+                branch 'master'
             }
             steps {
                 echo 'made it to production stage'
