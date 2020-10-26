@@ -30,7 +30,12 @@ pipeline {
                 branch 'production'
             }
             steps {
-                sh "git config --global user.email 'ci@jenkins.com' && git config --global user.name 'ci-auto'"
+                withCredentials(usernamePassword(credentialsId: GIT_CREDS, passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME'){
+                    sh '''
+                    git config --global credential.username {GIT_USERNAME}
+                    git config --global credential.helper "!echo password={GITPASSWORD}; echo"
+                    '''
+                }
                 sh './jenkins/scripts/deploy.sh'
             }
         }
