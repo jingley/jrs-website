@@ -31,10 +31,10 @@ pipeline {
             }
             steps {
                 withCredentials(usernamePassword(credentialsId: GIT_CREDS, passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME'){
-                    sh '''
+                    sh("""
                     git config --global credential.username {GIT_USERNAME}
                     git config --global credential.helper "!echo password={GITPASSWORD}; echo"
-                    '''
+                    """)
                 }
                 sh './jenkins/scripts/deploy.sh'
             }
