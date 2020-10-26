@@ -35,7 +35,7 @@ pipeline {
                     git config --global user.name "Jon Ross Ingley"
                 '''
                 withCredentials([usernamePassword(credentialsId: 'github-creds', passwordVariable: 'GIT_PASSWD', usernameVariable: 'GIT_USER')]) {
-                    sh 'git remote set-url origin https://jingley22@gmail.com:${GIT_PASSWD}@github.com/jingley/jrs-website'
+                    sh 'git remote set-url origin https://${GIT_USER}:${GIT_PASSWD}@github.com/jingley/jrs-website'
                 }
                 sh './jenkins/scripts/deploy.sh'
             }
