@@ -7,8 +7,6 @@ pipeline {
     }
     environment {
         CI = 'true'
-        REPO = 'github.com/jingley/jrs-website'
-        GIT_CREDS = 'github-creds'
     }
     options {
         buildDiscarder logRotator( 
@@ -32,8 +30,8 @@ pipeline {
                 branch 'production'
             }
             steps {
-                withCredentials([usernamePassword(credentialsId: '${GIT_CREDS}', passwordVariable: 'GIT_PASSWD', usernameVariable: 'GIT_USER')]) {
-                    sh 'git remote set-url origin https://{GIT_USER}:{GIT_PASSWD}@${REPO}'
+                withCredentials([usernamePassword(credentialsId: 'github-creds', passwordVariable: 'GIT_PASSWD', usernameVariable: 'GIT_USER')]) {
+                    sh 'git remote set-url origin https://{GIT_USER}:{GIT_PASSWD}@github.com/jingley/jrs-website'
                 }
                 sh './jenkins/scripts/deploy.sh'
             }
