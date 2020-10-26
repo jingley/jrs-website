@@ -49,7 +49,6 @@ pipeline {
             }
             steps {
                 sh './jenkins/scripts/deploy.sh'
-                input message: 'Finished? (Click "Proceed" to continue)'
             }
         }
     }
