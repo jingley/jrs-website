@@ -48,6 +48,9 @@ pipeline {
                 branch 'production'
             }
             steps {
+                sh "git config --global user.email 'ci@jenkins.com' && git config --global user.name 'ci-auto'"
+                sh "git config --global credential.helper '/bin/bash ${WORKSPACE}/ops/credentials-helper.sh'"
+                sh "gh-pages --dotfiles --message '[skip ci] Updates' --dist docs/build/html"
                 sh './jenkins/scripts/deploy.sh'
             }
         }
