@@ -47,7 +47,7 @@ pipeline {
                 branch 'production'
             }
             steps {
-                echo 'made it to production stage'
+                sh './jenkins/scripts/deploy.sh'
             }
         }
     }
