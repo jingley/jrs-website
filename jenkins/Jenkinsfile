@@ -32,8 +32,8 @@ pipeline {
             }
             steps {
                 sh '''
-                    sh "git config --global user.email 'ci@jenkins.com' && git config --global user.name 'ci-auto'"
-                    sh "git config --global credential.helper '/bin/bash ${WORKSPACE}/ops/credentials-helper.sh'"
+                    git config --global user.email 'ci@jenkins.com' && git config --global user.name 'ci-auto'
+                    git config --global credential.helper '/bin/bash ${WORKSPACE}/ops/credentials-helper.sh'
                     git remote set-url origin https://github.com/jingley/jrs-website.git
                 '''
                 sh './jenkins/scripts/deploy.sh'
