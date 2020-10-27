@@ -31,7 +31,7 @@ pipeline {
             steps {
                 sh 'git config --global credential.helper cache'
                 sh 'git config --global user.email "jingley22@gmail.com" && git config --global user.name "Jon Ross Ingley"'
-                sh 'git credentialsId: 'GIT_CREDS', url: "https://github.com/jingley/jrs-website.git"'
+                git credentialsId: 'GIT_CREDS', url: 'https://github.com/jingley/jrs-website.git'
                 sh './jenkins/scripts/deploy.sh'
             }
         }
