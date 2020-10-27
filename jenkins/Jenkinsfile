@@ -26,7 +26,11 @@ pipeline {
             steps {
                 sh 'git config --global credential.helper wincred'
                 sh 'git config --global user.email "ci@jenkins.com" && git config --global user.name "ci-auto"'
-                checkout([$class: 'GitSCM', branches: [[name: 'BRANCH_NAME']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'GIT_CREDS', url: 'https://github.com/jingley/jrs-website']]])
+                checkout([$class: 'GitSCM', branches: [[name: '$BRANCH_NAME']], 
+                        doGenerateSubmoduleConfigurations: false, 
+                        extensions: [], 
+                        submoduleCfg: [], 
+                        userRemoteConfigs: [[credentialsId: 'GIT_CREDS', url: 'https://github.com/jingley/jrs-website']]])
             }
         }
         stage('Build For Testing') {
