@@ -24,7 +24,8 @@ pipeline {
         }
         stage('Code Checkout') {
             steps {
-                git config --global credential.helper wincred
+                sh 'git config --global credential.helper wincred'
+                sh 'git config --global user.email "ci@jenkins.com" && git config --global user.name "ci-auto"'
                 checkout([
                     $class: 'GitSCM', 
                     branches: [[name: 'BRANCH_NAME']], 
@@ -54,9 +55,6 @@ pipeline {
                         ./jenkins/scripts/deploy.sh
                     '''
                 }*/
-                sh '''
-                    git config --global user.email 'ci@jenkins.com' && git config --global user.name 'ci-auto'
-                '''
                 sh './jenkins/scripts/deploy.sh'
             }
         }
