@@ -2,11 +2,7 @@ pipeline {
     agent {
         dockerfile {
             filename 'docker/Dockerfile'
-            additionalBuildArgs '--build-arg ssh_prv_key="$(cat ~/.ssh/id_rsa)" 
-            --build-arg ssh_pub_key="$(cat ~/.ssh/id_rsa.pub)" 
-            --build-arg squash
-            --build-arg ssh
-            '
+            additionalBuildArgs '--build-arg ssh_prv_key="$(cat ~/.ssh/id_rsa)" --build-arg ssh_pub_key="$(cat ~/.ssh/id_rsa.pub)" --build-arg squash --build-arg ssh'
         }
     }
     environment {
