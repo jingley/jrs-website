@@ -3,6 +3,7 @@ pipeline {
         dockerfile {
             filename 'docker/Dockerfile'
             additionalBuildArgs '--build-arg ssh'
+            args '--rm'
         }
     }
     environment {
@@ -34,7 +35,7 @@ pipeline {
                     git config --global user.email "jingley22@gmail.com"
                     git config --global user.name "Jon Ross Ingley"
                     git config --global credential.helper cache
-                    ssh -T git@github.com:jingley/jrs-website.git
+                    ssh git@github.com:jingley/jrs-website.git
                 '''
                 sh './jenkins/scripts/deploy.sh'
             }
