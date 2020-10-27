@@ -31,7 +31,6 @@ pipeline {
             steps {
                 sh 'git config --global credential.helper cache'
                 sh 'git remote set-url origin git@github.com:jingley/jrs-website'
-                git credentialsId: 'github-ssh', url: 'git@github.com:jingley/jrs-website.git'
                 input message: 'wait'
                 sh './jenkins/scripts/deploy.sh'
             }
