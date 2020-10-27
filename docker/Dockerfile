@@ -1,4 +1,3 @@
-# syntax = docker/dockerfile:1.0-experimental
 FROM node:current-alpine3.10
 
 ARG ssh_prv_key

@@ -30,9 +30,9 @@ pipeline {
                 branch 'production'
             }
             steps {
-                sh 'git config --global credential.helper cache'
+                git config --global user.email "jingley22@gmail.com"
+                git config --global user.name "Jon Ross Ingley - Jenkins Pipeline"
                 sh 'git remote set-url origin git@github.com:jingley/jrs-website'
-                input message: 'wait'
                 sh './jenkins/scripts/deploy.sh'
             }
         }
