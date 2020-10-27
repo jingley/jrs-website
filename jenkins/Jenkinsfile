@@ -33,7 +33,7 @@ pipeline {
                     sh '''
                         git remote set-url origin https://github.com/jingley/jrs-website.git
                         git config --global user.email "ci@jenkins.com" && git config --global user.name "ci-auto"
-                        input message "ready to proceed?""
+                        input message "ready to proceed?"
                         ./jenkins/scripts/deploy.sh
                     '''
                 }
