@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Code Checkout') {
             steps {
-                sh 'git config --global credential.helper wincred'
+                sh 'git config --global credential.helper cache'
                 sh 'git config --global user.email "ci@jenkins.com" && git config --global user.name "ci-auto"'
                 checkout([$class: 'GitSCM', branches: [[name: '$BRANCH_NAME']], 
                         doGenerateSubmoduleConfigurations: false, 
@@ -48,12 +48,6 @@ pipeline {
                 branch 'production'
             }
             steps {
-                /*withCredentials([usernamePassword(credentialsId: 'GIT_CREDS', passwordVariable: 'GIT_CREDS_PASS', usernameVariable: 'GIT_CREDS_USR')]) {
-                    sh '''
-                        git config --global user.email "ci@jenkins.com" && git config --global user.name "ci-auto"
-                        ./jenkins/scripts/deploy.sh
-                    '''
-                }*/
                 sh './jenkins/scripts/deploy.sh'
             }
         }
