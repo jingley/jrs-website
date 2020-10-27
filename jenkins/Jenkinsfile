@@ -2,7 +2,7 @@ pipeline {
     agent {
         dockerfile {
             filename 'docker/Dockerfile'
-            additionalBuildArgs '--ssh'
+            additionalBuildArgs '--build-arg ssh'
         }
     }
     environment {
