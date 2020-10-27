@@ -3,6 +3,7 @@ pipeline {
         dockerfile {
             filename 'Dockerfile'
             dir 'docker'
+            additionalBuildArgs '--ssh'
             args '--rm'
         }
     }
@@ -35,9 +36,8 @@ pipeline {
                     git config --global user.email "jingley22@gmail.com"
                     git config --global user.name "Jon Ross Ingley"
                     git config --global credential.helper cache
-                    git remote set-url origin https://github.com/jingley/jrs-website.git
+                    ssh -T git@github.com/jingley/jrs-website.git
                 '''
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'github-cred', url: 'https://github.com/jingley/jrs-website']]])
                 sh './jenkins/scripts/deploy.sh'
             }
         }
