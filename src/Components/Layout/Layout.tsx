@@ -65,7 +65,7 @@ const Layout = (props) => {
             </aside>
             <div className="Fill-Space"/>
             <footer className="Layout-footer">
-                <p>Jon Ross Ingley &copy; 2020</p>
+                <p>Jon Ross Ingley &copy; 2021</p>
             </footer>
         </div>
     );

@@ -20,11 +20,11 @@ const Education = () => {
     const props = {
         major: 'Computer Science',
         year: 'May 2020',
-        degree: 'Bachelor of Science',
+        degree: 'Bachelor of Science, Computer Science',
         college: 'Franklin College of Arts and Sciences',
         university: 'The University of Georgia',
         gpa: '3.15 out of 4.0',
-        relatedCourseWork: `Related Coursework: <span class="Standout-text">Software Engineering</span>, System Programming, <span class="Standout-text">Web Programming</span>,\n` +
+        relatedCourseWork: `Relevant Coursework: <span class="Standout-text">Software Engineering</span>, System Programming, <span class="Standout-text">Web Programming</span>,\n` +
             `Software Development, Data Structures, Database Management, Mobile Software\n` +
             `Development, Computer Networks`
     };
@@ -32,18 +32,15 @@ const Education = () => {
     /**
      * destructing props
      */
-    const {major, year, degree, college, university, gpa, relatedCourseWork} = props;
+    const {year, degree, university, relatedCourseWork} = props;
 
     return (
         <div className="Education">
             <div className="School-information">
-                <h3>{degree} | {university} </h3>
-                <h3>{year} {college}</h3>
+                <h3>{degree} | {university}, {year} </h3>
             </div>
             <div className="Resume-bullets">
                 <ul>
-                    <li>GPA: {gpa}</li>
-                    <li>Major: {major}</li>
                     <li dangerouslySetInnerHTML={{ __html: relatedCourseWork}}/>
                 </ul>
             </div>

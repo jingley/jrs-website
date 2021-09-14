@@ -24,13 +24,10 @@ const Skills = () => {
           <h2 className="Resume-title" id="coding" >Coding Languages & Technologies</h2>
           <div className="Resume-bullets">
               <ul className="Coding-skills">
-                  <li>Java</li>
-                  <li><span className="Standout-text">JavaScript</span></li>
-                  <li><span className="Standout-text">React</span></li>
-                  <li>Redux</li>
-                  <li>RxJs</li>
-                  <li>Git</li>
+                  <li><span className="Standout-text">Java</span></li>
+                  <li>Git & Mercurial</li>
                   <li>SQL</li>
+                  <li>Jenkins</li>
               </ul>
           </div>
           <h2 className="Resume-title" id="communication" >Communication</h2>

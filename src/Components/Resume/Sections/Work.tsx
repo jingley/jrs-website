@@ -8,13 +8,13 @@ import React from 'react';
 import Sabre from './Jobs/Sabre';
 import SnellingClerical from './Jobs/SnellingClerical';
 import SnellingStudent from './Jobs/SnellingStudent';
+import Wellfleet from './Jobs/Wellfleet';
 
 const Work = () => {
     return (
         <div className="Work">
+            <Wellfleet/>
             <Sabre/>
-            <SnellingClerical/>
-            <SnellingStudent/>
         </div>
     );
 };
